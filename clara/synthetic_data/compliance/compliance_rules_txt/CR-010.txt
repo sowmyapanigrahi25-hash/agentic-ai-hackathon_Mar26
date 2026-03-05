@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-010
+Name: Refund Confirmation Format
+Category: refund_policy
+Severity: warn
+Applies To: letter
+
+Description: Refund commitments must include specific amount, timeline, and method in resolution letter.
+
+Trigger Condition: Letter mentions refund but missing amount, processing timeline, or refund method details
+
+Remediation: Add complete refund details including dollar amount, 5-7 business day timeline, and original payment method

@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-012
+Name: First Response Time Standard
+Category: communication_standard
+Severity: info
+Applies To: complaint
+
+Description: Initial acknowledgment must be sent to customer within 24 hours of complaint submission.
+
+Trigger Condition: More than 24 hours elapsed since complaint submission without any customer communication
+
+Remediation: Send immediate acknowledgment email to customer confirming receipt and expected timeline

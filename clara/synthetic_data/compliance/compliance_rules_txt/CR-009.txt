@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-009
+Name: Response Time SLA Warning
+Category: escalation_trigger
+Severity: warn
+Applies To: complaint
+
+Description: Complaints approaching 60 hours without resolution should trigger warning notification.
+
+Trigger Condition: Time elapsed between complaint submission and current time is between 60 and 72 hours
+
+Remediation: Send notification to supervisor and prioritize complaint in queue

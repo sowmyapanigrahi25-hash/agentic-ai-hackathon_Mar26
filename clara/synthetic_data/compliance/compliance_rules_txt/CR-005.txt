@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-005
+Name: Fraud Routing Protocol
+Category: fraud_protocol
+Severity: block
+Applies To: complaint
+
+Description: Fraud category complaints must be routed to specialized fraud investigation team, not generic resolution.
+
+Trigger Condition: Complaint category is "fraud" but assigned to generic resolution agent
+
+Remediation: Immediately reassign to fraud investigation team queue

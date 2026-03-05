@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-008
+Name: Duplicate Complaint Detection
+Category: escalation_trigger
+Severity: warn
+Applies To: complaint
+
+Description: System must flag potential duplicate complaints from same customer within 48 hours.
+
+Trigger Condition: Same customer has submitted complaint with similar text or category within last 48 hours
+
+Remediation: Merge with existing complaint or flag for agent review to avoid duplicate work

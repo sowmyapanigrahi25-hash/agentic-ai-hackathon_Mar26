@@ -1,0 +1,501 @@
+audit_id,complaint_id,rule_id,checked_at,result,escalated,escalation_reason,pipeline_stage,agent_name,invocation_latency_ms
+e349e92e-4dbc-4d22-9697-f1ad1694002c,032ea228-597d-4455-9acb-be7a221e448a,CR-001,2025-10-05T07:16:33+00:00,warn,True,customer account flagged for review,compliance_check,resolution-agent-v1,1422
+6b8fc484-a8a0-4e1c-87bf-43c92c787434,99d3b0ce-deea-489f-9955-4945a6e9d300,,2026-02-25T02:07:33+00:00,warn,True,confidence score below threshold,resolution,decision-agent-v1,265
+6bac6673-f802-4612-9f20-91fb62e4eab9,ddb19014-bb14-418d-b01f-a00a1fa9eac0,,2025-10-15T16:38:33+00:00,pass,True,customer risk score above 0.85,data_pull,triage-agent-v1,151
+c05e898b-94b3-4eb6-83c0-cbfe8e5abb7c,a25c38e8-e188-4dd5-966d-f623d0a1a15c,,2026-01-24T10:42:33+00:00,warn,True,duplicate complaint detected,draft_generation,resolution-agent-v1,3867
+c5b11ddb-5aa6-483f-8f40-9f8e0b97568a,d72380ff-931f-4b7c-9173-8ea2ae458112,,2026-02-04T12:57:33+00:00,pass,True,duplicate complaint detected,resolution,decision-agent-v1,249
+cd653ff1-29f9-4424-883e-a83d82869cad,18d8bb26-1a49-46ec-a98c-9f4d6a3219c6,,2026-02-05T06:49:33+00:00,warn,True,compliance rule violation detected,data_pull,triage-agent-v1,167
+bd8de710-050b-4ae8-80b3-537ed0c1d89c,986b3a0b-f745-49de-b8ba-56cd0e0449b8,,2025-11-26T16:49:33+00:00,warn,True,fraud complaint misrouted,data_pull,triage-agent-v1,262
+c9cc6266-397f-4690-9e13-343ae9c2b940,73b88e8d-2b25-427b-9045-24cd78bcfc64,,2025-12-31T06:26:33+00:00,warn,True,compliance rule violation detected,resolution,decision-agent-v1,66
+3d904c20-8c4d-4f3d-a8ed-d2acefd13ee6,37d2734f-8802-4408-bf1d-14d04c031220,,2025-11-30T09:00:33+00:00,pass,True,SLA breach detected,classification,triage-agent-v1,234
+5c05038f-ac5c-4ccb-b0a6-b428223ed14b,9c8cf56a-0e38-4cdc-bd1f-b2f18ec48113,,2026-02-16T14:05:33+00:00,warn,True,compliance rule violation detected,data_pull,triage-agent-v1,94
+274b6fd0-5fc2-4994-adbb-1c65712291ec,b5d0cf24-3697-46c8-803b-6b72c48a2aa5,,2025-09-13T03:15:33+00:00,pass,True,high value refund requires approval,classification,triage-agent-v1,153
+2dc1c4c3-3e1f-425c-a49f-ef217a8cf19a,917f3037-5cd0-4851-9701-2e0ae888af85,,2026-02-27T09:30:33+00:00,warn,True,fraud complaint misrouted,escalation,decision-agent-v1,248
+a9725873-a249-46a6-9733-5d756a8e7786,ef4a28b1-ce85-454f-bc62-ac54e86a8237,,2026-02-11T23:46:33+00:00,pass,True,SLA breach detected,draft_generation,resolution-agent-v1,1356
+7bef5a10-f8db-4b53-b52e-8f8eb0975c4b,502260e4-3d83-4b28-89ae-08cda08faed5,,2025-12-23T02:29:33+00:00,pass,True,SLA breach detected,resolution,decision-agent-v1,252
+da04e741-82e8-4ae1-8be0-9ee56d621022,1adbd666-3296-4362-a44d-8f8ec4ff0ac9,,2025-12-15T14:03:33+00:00,pass,True,customer risk score above 0.85,escalation,decision-agent-v1,63
+4a9ac714-c066-442a-ac1d-84bb9ee27c22,233f8986-3b71-4a16-9a58-7caed34bc267,,2025-11-28T15:54:33+00:00,pass,True,customer account flagged for review,classification,triage-agent-v1,283
+5f4176b1-a1dc-41b3-a65b-4b102e7c46c2,b66005d1-22a6-4dfa-abc2-7ab97a09784b,,2025-11-21T18:54:33+00:00,pass,True,high value refund requires approval,classification,triage-agent-v1,125
+9577a1f3-8725-440b-a97a-372caf4a3067,5980380b-7afb-44ff-9bce-dd9d28cdbd09,,2026-01-03T01:14:33+00:00,pass,True,insufficient transaction evidence,classification,triage-agent-v1,119
+d4edab3f-69d4-4a72-a766-8af7a8d08d17,aca78843-746e-48d9-af63-8654fda6cb07,,2025-10-21T10:12:33+00:00,pass,True,compliance rule violation detected,resolution,decision-agent-v1,125
+1c2be0c3-18ca-42d0-9ae5-44d81ee6cbfc,894fad28-583b-495e-9c96-370d8c332809,,2026-03-02T00:02:33+00:00,pass,True,fraud complaint misrouted,resolution,decision-agent-v1,54
+7c7c7035-9944-4f65-b425-f5c19efee760,8f0deeba-95c7-4362-a5cb-e89767134944,,2026-01-20T05:11:33+00:00,pass,True,customer account flagged for review,draft_generation,resolution-agent-v1,3819
+b401c3c3-c285-4536-8610-cb893e3a848a,351202c0-93ad-43b2-a0f4-c50cd246f5e4,,2025-09-30T18:23:33+00:00,pass,True,compliance rule violation detected,classification,triage-agent-v1,239
+58eb1b86-4f07-47d6-9f20-d76f2cfb582b,36001e34-1058-49b2-84e2-f72fc2eb15e3,CR-011,2026-01-26T20:08:33+00:00,pass,True,SLA breach detected,compliance_check,resolution-agent-v1,3701
+9772db0d-7644-4fcc-9041-e80bfdc66c90,267c9968-d91f-4cf3-9a59-7c290578d6ed,,2025-11-25T06:01:33+00:00,pass,True,customer risk score above 0.85,draft_generation,resolution-agent-v1,1550
+b6d53c3a-27dc-4255-9baa-7ca40edc9ade,4bbefc5e-1760-4c22-9282-f81a9fd84048,,2025-12-18T16:50:33+00:00,block,True,customer risk score above 0.85,data_pull,triage-agent-v1,175
+a8a057e8-356a-4645-83c1-f968d79b5a87,5e2ef0f0-214a-4759-be29-99406f35db2a,,2025-12-25T07:56:33+00:00,pass,True,insufficient transaction evidence,resolution,decision-agent-v1,173
+ff74f9dc-9215-434f-b1fe-09b4b6d5885c,2cc66e6f-a29c-4569-b587-f8f35b40aaf6,,2025-11-14T20:16:33+00:00,warn,True,customer risk score above 0.85,resolution,decision-agent-v1,289
+ccd4b230-cd7a-4f92-a115-5d101ed213ba,628542dd-5c36-425c-a8d5-9b76b8212e0b,CR-003,2026-01-31T05:07:33+00:00,warn,True,confidence score below threshold,compliance_check,resolution-agent-v1,2116
+851c2645-7954-482f-bd14-71038f0ef932,4063ff84-b451-49f1-80bc-277a729ddca5,,2025-09-27T16:05:33+00:00,warn,True,confidence score below threshold,data_pull,triage-agent-v1,83
+4932c991-8ab1-4784-9dff-5ed63de16d12,917f3037-5cd0-4851-9701-2e0ae888af85,,2025-12-23T14:40:33+00:00,pass,True,insufficient transaction evidence,data_pull,triage-agent-v1,250
+631447a0-69b1-474f-a27a-d9dabfc1b1cf,09b4b943-6c69-4075-80fe-b42ab6edf6ea,,2026-01-07T15:52:33+00:00,pass,True,compliance rule violation detected,data_pull,triage-agent-v1,139
+317c3815-1c02-4964-be1d-8536c1e1dd2d,816a8c61-5a3c-4206-a688-f3214cde9568,,2025-12-05T06:11:33+00:00,block,True,duplicate complaint detected,data_pull,triage-agent-v1,211
+11eb4582-a465-4383-ab59-8ff4265a9198,a2b90015-7079-44df-b054-1ad57c33427a,,2025-12-09T00:03:33+00:00,pass,True,customer account flagged for review,data_pull,triage-agent-v1,165
+98fb0caf-aa39-4e7d-a7fb-a2bcd5a88df5,ef4a28b1-ce85-454f-bc62-ac54e86a8237,,2026-01-24T19:01:33+00:00,pass,True,fraud complaint misrouted,classification,triage-agent-v1,300
+f7d35670-d70c-4dba-9c0f-0995a290fef2,a925ee0b-5e18-45eb-a962-086a24d4b3b1,,2026-03-04T18:50:33+00:00,pass,True,fraud complaint misrouted,classification,triage-agent-v1,238
+da09613c-475d-423b-bf56-4be1b742a8ce,4abd0a0f-2c31-490c-a8cb-c6d16286a70e,CR-009,2025-09-21T16:46:33+00:00,pass,True,compliance rule violation detected,compliance_check,resolution-agent-v1,2130
+2b3d512c-9de8-4b20-9a97-6304bea81e18,11280b5d-c921-40b2-a16f-067f8eed2107,,2025-09-23T15:07:33+00:00,pass,True,insufficient transaction evidence,draft_generation,resolution-agent-v1,1488
+00baf850-bee7-43a4-a26f-47a871d10d9b,157c12e3-61bd-4f20-b47c-91a552f90704,,2025-09-10T20:58:33+00:00,pass,True,high value refund requires approval,classification,triage-agent-v1,139
+41b79def-d3c6-4256-a24b-af00f6378680,76137173-6eff-46f6-94f0-cb37de447bd8,,2025-12-23T00:08:33+00:00,warn,True,compliance rule violation detected,draft_generation,resolution-agent-v1,1915
+56168c46-19da-428a-82c0-42f3cb037464,1adbd666-3296-4362-a44d-8f8ec4ff0ac9,,2026-02-23T02:27:33+00:00,pass,True,customer account flagged for review,classification,triage-agent-v1,98
+14466821-c0f6-4dd1-8ac6-ea76f4dc0b72,b1aceea0-0852-4fd7-bc52-8f40782377fa,,2025-11-28T03:46:33+00:00,warn,True,customer account flagged for review,resolution,decision-agent-v1,180
+e0f23a0c-f34d-4763-81ae-9063615161e7,6dbedf3e-2f70-41a1-85cb-15101e404909,,2025-11-01T06:53:33+00:00,pass,True,confidence score below threshold,draft_generation,resolution-agent-v1,2399
+4d4a5451-72db-4f0d-ae2c-0ae4b2ddf696,83dd6cd3-633c-4850-96da-0f4e5b438ca1,,2026-02-06T21:51:33+00:00,warn,True,confidence score below threshold,classification,triage-agent-v1,95
+7535f178-ecb4-480c-84bd-f9af6046f80e,e36c3e3b-8340-4037-a214-d3c12055d3a8,,2026-02-21T07:09:33+00:00,pass,True,fraud complaint misrouted,draft_generation,resolution-agent-v1,3233
+6d780b83-67cf-4ddc-9720-1917ac94ea32,29ffec9b-3f5f-48e0-b25d-884a20f14a5a,,2025-09-12T15:48:33+00:00,pass,True,insufficient transaction evidence,draft_generation,resolution-agent-v1,3477
+b6ccbd14-f335-4608-bdfe-d2cf5fea7362,997700e4-1482-4d6b-b18b-57857a847427,CR-003,2025-10-08T08:48:33+00:00,block,True,customer account flagged for review,compliance_check,resolution-agent-v1,1473
+f4917d45-862e-4b1d-96a0-d666dcbba3ea,38355d56-3a92-4d16-aafa-fc53cf92e697,,2025-09-14T06:05:33+00:00,pass,True,compliance rule violation detected,escalation,decision-agent-v1,183
+138fdac3-7cd8-4256-8dc7-a5875278f850,a7fe83ed-3b7f-4590-bdf1-dee57c16bea7,,2025-11-20T02:32:33+00:00,block,True,SLA breach detected,draft_generation,resolution-agent-v1,2118
+f1d82d15-e102-434d-b883-a2eecd5fdab9,9a43c3a6-b41b-47ac-8605-8305c5b7abdb,,2025-12-04T08:36:33+00:00,warn,True,customer account flagged for review,draft_generation,resolution-agent-v1,2499
+71cb936a-9cce-49da-a319-a4eb3af98aea,06568116-b831-40c0-b987-7f6568da67fb,,2025-10-27T04:16:33+00:00,pass,True,confidence score below threshold,resolution,decision-agent-v1,234
+da3f2e67-8625-4fe7-a16f-30cff7830553,028767dc-67c7-4c8f-b986-42ceb139a619,CR-010,2025-12-02T13:36:33+00:00,block,True,customer risk score above 0.85,compliance_check,resolution-agent-v1,4037
+57746407-8a4d-47e2-a602-dd2429c11586,696877f9-52a5-46a1-8471-9e211882d105,,2025-11-02T23:34:33+00:00,pass,True,insufficient transaction evidence,resolution,decision-agent-v1,77
+46178a70-991f-4131-aafc-90933ec5f783,b5d0cf24-3697-46c8-803b-6b72c48a2aa5,CR-013,2025-11-03T22:35:33+00:00,warn,True,fraud complaint misrouted,compliance_check,resolution-agent-v1,3568
+193aff55-c0b2-4a9f-8167-f51ea2e054f3,a56dec63-eb2a-4bdd-94d1-cb7115137023,CR-010,2025-10-26T12:19:33+00:00,pass,True,customer account flagged for review,compliance_check,resolution-agent-v1,2836
+e75ec6ce-88d4-4461-b4af-3b397478e70b,5b81501c-0c43-44b4-9465-5898a24f0576,,2026-01-17T07:48:33+00:00,pass,True,insufficient transaction evidence,data_pull,triage-agent-v1,292
+b072772a-f996-4d2c-a5d8-cec517f3ad78,a73ebd4b-28b3-4eca-996d-e1e9904e330b,,2026-01-22T12:04:33+00:00,pass,True,customer account flagged for review,draft_generation,resolution-agent-v1,2823
+01717720-9fb0-41b9-8068-90c12ce76276,533e5140-264e-42d0-8340-da7a75ec0057,CR-012,2026-01-18T07:44:33+00:00,pass,True,compliance rule violation detected,compliance_check,resolution-agent-v1,2118
+7c4ac4d8-de17-4d26-af56-1390cab5e073,85b78f22-cc58-40f9-ac92-705c48cfab2c,,2025-12-21T09:21:33+00:00,pass,True,SLA breach detected,data_pull,triage-agent-v1,244
+233946ea-1ecb-4fe1-90b0-eaa86c253f55,998c57e4-0e4f-4fa4-809f-654e3c068ba9,,2025-10-28T10:15:33+00:00,pass,True,duplicate complaint detected,escalation,decision-agent-v1,266
+3921f759-298b-4651-84c3-ce215b189bf2,eefaec1d-a473-4ad9-9822-5a9a270ce2d3,,2025-11-05T16:10:33+00:00,pass,True,compliance rule violation detected,resolution,decision-agent-v1,56
+afb8c3fa-572c-45e8-b8a6-a73a38c02532,be6dc447-36d1-4970-a9b0-c4c17f510e15,,2026-02-17T21:20:33+00:00,block,True,SLA breach detected,data_pull,triage-agent-v1,246
+2b86098a-8eb8-429a-a3e5-215e5055cc5c,130fc375-5409-472e-94a9-73fabc533115,CR-010,2026-02-23T20:21:33+00:00,pass,True,high value refund requires approval,compliance_check,resolution-agent-v1,1117
+0db9846c-3dea-4a5c-b47b-9df64960d9b6,aa063ded-81fd-419b-b254-863fcfdd814c,CR-003,2026-01-15T01:16:33+00:00,pass,True,insufficient transaction evidence,compliance_check,resolution-agent-v1,1193
+3ab74c9d-276b-4e70-9a73-cc6de556c25b,a925ee0b-5e18-45eb-a962-086a24d4b3b1,,2026-02-01T09:25:33+00:00,block,True,high value refund requires approval,draft_generation,resolution-agent-v1,2014
+ccdc0936-b14f-460f-95e9-8ddc43792d7f,9c8cf56a-0e38-4cdc-bd1f-b2f18ec48113,,2025-11-20T00:14:33+00:00,warn,True,duplicate complaint detected,draft_generation,resolution-agent-v1,2702
+600f4773-a14f-44f6-93b9-9a61229b35ef,e5826cc7-5553-4525-bf9b-92ff0dcf19bf,,2025-10-29T08:58:33+00:00,warn,True,customer account flagged for review,data_pull,triage-agent-v1,155
+f6b48940-bd3b-4f59-ac80-f90aacf3569a,3376b83f-e6d2-4f64-b906-dfa0bee59eaa,,2026-02-26T04:19:33+00:00,block,True,customer risk score above 0.85,resolution,decision-agent-v1,281
+aaf7ac13-6919-40b4-b2b6-4b2eb973ddb3,2d4d9d8b-3cd5-4b2e-8210-eddcc4162711,,2026-01-31T18:20:33+00:00,warn,True,high value refund requires approval,draft_generation,resolution-agent-v1,1259
+58f02fd6-1efe-4fe2-bf48-85cd3483762b,06839f90-4c64-4ba9-b553-000ee1977894,,2025-10-06T00:01:33+00:00,pass,True,confidence score below threshold,escalation,decision-agent-v1,217
+eea20cba-497a-4ae8-a720-173a3a53eb7a,894fad28-583b-495e-9c96-370d8c332809,,2026-02-05T06:43:33+00:00,pass,True,insufficient transaction evidence,resolution,decision-agent-v1,181
+34a8203e-a5f7-4015-972d-facb0ba67e3c,2a2291fd-658f-4dcb-bd5b-dbcb84a0643b,,2025-09-08T23:33:33+00:00,block,True,fraud complaint misrouted,escalation,decision-agent-v1,153
+30dde0b2-fade-4395-a819-2d4d2804daea,988dca8e-e5bd-4268-93e4-ff4c3d7e7ed9,,2026-02-08T23:41:33+00:00,block,True,fraud complaint misrouted,escalation,decision-agent-v1,299
+58639820-85e9-4665-ac16-8963087d1c06,ea226820-61dd-4aa4-b974-5f057c0d43d0,,2026-02-15T08:14:33+00:00,pass,True,duplicate complaint detected,classification,triage-agent-v1,99
+dc3090d2-8dff-4cc2-8b63-a4f3e830129e,be675740-dd0b-49bf-951b-3a08d3598a82,,2026-02-18T02:28:33+00:00,warn,True,fraud complaint misrouted,escalation,decision-agent-v1,57
+8c8de124-1f4f-45dd-be10-ad9d563ed859,bd44a373-1019-4938-adc7-bde958953731,CR-003,2026-02-11T01:53:33+00:00,warn,True,high value refund requires approval,compliance_check,resolution-agent-v1,1436
+c4d160f9-8cc2-41fe-ad6a-5a37c36cf0d0,2cc66e6f-a29c-4569-b587-f8f35b40aaf6,,2026-01-19T13:39:33+00:00,pass,False,,resolution,decision-agent-v1,134
+26180d36-acf6-40a7-aa89-e6033f3e261d,ca73c52a-0ad5-41c1-9c4d-ea783b57cb54,,2026-01-19T10:30:33+00:00,pass,False,,escalation,decision-agent-v1,293
+a6a2ca3f-121a-4d3b-ad9b-57317946cb6d,502260e4-3d83-4b28-89ae-08cda08faed5,CR-015,2025-12-04T04:00:33+00:00,pass,False,,compliance_check,resolution-agent-v1,3495
+0c9bdfd5-a127-4151-8c20-79f1eaf13211,b1aceea0-0852-4fd7-bc52-8f40782377fa,,2026-01-10T22:32:33+00:00,warn,False,,escalation,decision-agent-v1,252
+fc4c7c3b-5fe6-4321-908a-45a83cf5b2a3,ebc46ad4-c0bd-4175-9ac5-24d24ddf8bb7,,2026-02-04T12:52:33+00:00,block,False,,data_pull,triage-agent-v1,272
+744ef871-8b54-4b3d-b828-6f80e3732ff9,ea86e1f3-fe2c-44df-845a-88c88f59082a,,2025-12-23T04:29:33+00:00,pass,False,,classification,triage-agent-v1,192
+fd5b8a3f-0c9c-4ac5-bc3f-669979bf92e6,833d6e91-abdc-44bf-9e1f-dd436a9e7139,,2026-01-13T06:11:33+00:00,pass,False,,classification,triage-agent-v1,212
+eba34916-ab5f-4dd0-a82e-85ec757f7afb,106de681-95e9-42d7-a18d-b6e50b83b544,,2025-09-16T15:05:33+00:00,warn,False,,draft_generation,resolution-agent-v1,1649
+fbaa4687-b794-445c-9a05-db3badb11a69,241d1f33-cb61-450b-946b-ff83a23f24aa,,2026-02-17T12:09:33+00:00,pass,False,,draft_generation,resolution-agent-v1,958
+a781011a-e13d-455e-ad42-77cd5eca7e89,f2d419f7-2d75-4429-9e1b-052ed640d60a,,2025-10-25T16:51:33+00:00,pass,False,,escalation,decision-agent-v1,291
+e94f26df-f8d7-44d8-acd7-0219a5db3d9b,2e31027e-e588-4118-b75b-a79b0be64d0a,,2026-02-20T03:30:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1401
+62aaaac3-7ae6-4bd3-b039-e6c04e11f60d,a4ebd681-6456-4f76-b79a-1f5c053edc87,,2025-11-12T16:10:33+00:00,pass,False,,escalation,decision-agent-v1,257
+fff262f5-4f79-4378-b79b-595baf085a42,1adbd666-3296-4362-a44d-8f8ec4ff0ac9,,2025-09-06T22:40:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2098
+d1ce3c54-159b-4b53-a3cc-28edd7d1f86b,08d16e6a-837d-41dc-9a7b-104f1cfe3d4a,,2025-11-07T17:41:33+00:00,pass,False,,data_pull,triage-agent-v1,246
+7051ca04-ce29-4463-863a-762bd6ff8621,52367191-4581-4bcd-9802-b1e690e4c4bc,,2025-10-02T02:59:33+00:00,pass,False,,escalation,decision-agent-v1,81
+c4ee27dd-7f4b-4574-ac0e-098a21f347ea,c11784a6-3927-4215-8dc8-6aea155b842a,,2025-10-31T02:52:33+00:00,block,False,,resolution,decision-agent-v1,202
+da298594-e98b-4f6f-bf3b-1c3f5e1dc97b,502260e4-3d83-4b28-89ae-08cda08faed5,,2025-10-06T21:59:33+00:00,pass,False,,classification,triage-agent-v1,215
+df7a5553-82d7-463c-b7ec-9727a1e20f4a,c7493478-e472-4e52-8768-d86d06b6658a,,2026-01-30T06:16:33+00:00,pass,False,,draft_generation,resolution-agent-v1,4382
+2fd37f7d-5d77-4733-9e97-4064449e7933,4fe90edf-d8bc-4a5b-bda3-1c700c7a260d,,2025-12-29T21:34:33+00:00,pass,False,,data_pull,triage-agent-v1,93
+2c8d24b1-bcf9-443f-9c22-6584d0725762,9885a8cf-811c-4ef5-80dd-29a659e4c442,,2025-11-25T18:51:33+00:00,pass,False,,resolution,decision-agent-v1,273
+cd8343e7-8caa-4967-8090-3d944497a70e,12017983-945e-45c5-b2ce-103b89027562,,2026-02-21T13:37:33+00:00,pass,False,,draft_generation,resolution-agent-v1,3058
+cce56e9f-4d4a-49aa-a79e-ea68a09b05ba,a8ac992e-7a83-457e-be62-9a60e9d468df,,2026-01-05T09:22:33+00:00,pass,False,,data_pull,triage-agent-v1,279
+d630722c-556f-43e9-a168-c90317d466b6,5deaa909-4faa-4f03-8b9a-f49ffb573db9,,2026-02-17T14:37:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2632
+922b6ae6-ab0e-43ba-9aba-398bb1253c3c,85b78f22-cc58-40f9-ac92-705c48cfab2c,CR-014,2026-02-09T19:51:33+00:00,warn,False,,compliance_check,resolution-agent-v1,1206
+345f7cf7-f610-4b47-84a9-2a2a220ff838,e36c3e3b-8340-4037-a214-d3c12055d3a8,,2025-11-29T11:37:33+00:00,pass,False,,data_pull,triage-agent-v1,252
+fa944195-d23d-4f52-851d-d9d2323f529e,5ba3f178-94b0-4721-85e6-2c4a728c1bed,CR-013,2026-01-17T19:48:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1405
+4d3c8c8d-e55a-4ba8-a405-c236577de96e,af1849fb-f048-4b0c-a77c-fbb15d64684d,CR-010,2026-01-01T07:09:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1227
+ce0ab954-752b-46e7-b7d7-5a5373ae7d5e,f29d088a-ce71-493e-8fb8-9457427630b8,CR-011,2026-01-17T05:58:33+00:00,block,False,,compliance_check,resolution-agent-v1,2951
+bd84ae59-0131-4a2c-8eb0-146f0b75c67c,e5826cc7-5553-4525-bf9b-92ff0dcf19bf,,2026-01-30T09:05:33+00:00,pass,False,,draft_generation,resolution-agent-v1,919
+a1c21d19-0621-4aaf-957d-25ef7a1bcd50,e7ab661a-44de-4d12-bdec-5b17be5e423b,,2025-11-28T11:18:33+00:00,pass,False,,data_pull,triage-agent-v1,117
+2190aaf7-cf5e-4773-af0f-40c111c6d754,5e2ef0f0-214a-4759-be29-99406f35db2a,,2026-02-24T22:06:33+00:00,pass,False,,data_pull,triage-agent-v1,213
+44ff3975-15f2-4d48-a6a9-f70d66db33b3,91b43a42-778a-4d10-8f47-1e61022a02f1,CR-004,2025-12-29T21:22:33+00:00,pass,False,,compliance_check,resolution-agent-v1,4050
+0736264d-c59d-4dd3-92d7-bc2c6b7919be,b4df8ead-376e-486a-b619-7061b6ce654a,,2025-09-09T10:48:33+00:00,pass,False,,resolution,decision-agent-v1,74
+30f3d712-a241-4e03-8996-c025d5d4fafd,ebc46ad4-c0bd-4175-9ac5-24d24ddf8bb7,,2026-02-09T20:08:33+00:00,warn,False,,classification,triage-agent-v1,132
+3dc4efac-5296-43b7-9ade-86320f1fd9b9,5e3d6727-cd42-44b7-990b-6381e1d5e9af,CR-001,2025-12-22T06:23:33+00:00,pass,False,,compliance_check,resolution-agent-v1,965
+e997dfbd-b818-4735-ae7f-5a946148665e,7dc1fd42-aafb-46e6-884a-7d00a4b6cd01,,2026-02-26T03:29:33+00:00,pass,False,,resolution,decision-agent-v1,128
+3e215949-3e19-4285-88f5-0667cad328f0,2d4d9d8b-3cd5-4b2e-8210-eddcc4162711,,2025-11-17T13:41:33+00:00,pass,False,,resolution,decision-agent-v1,234
+72b5e005-8c9b-40af-8b0f-4782e8134a69,130fc375-5409-472e-94a9-73fabc533115,,2025-12-27T13:10:33+00:00,pass,False,,data_pull,triage-agent-v1,169
+895f84ba-a043-4936-9534-581f21ebb540,032ea228-597d-4455-9acb-be7a221e448a,,2025-11-02T11:46:33+00:00,pass,False,,escalation,decision-agent-v1,269
+e035be65-bf1f-4b6c-bd40-28491725a8be,e79ddfe2-8c3a-4d42-a7c1-b65fd49a31ad,,2025-11-24T12:24:33+00:00,pass,False,,resolution,decision-agent-v1,206
+f49e8d8a-b43e-48f3-bb30-535ae93b1b48,462bc741-e37c-4eba-b251-bcef6c929c15,,2025-10-12T17:50:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1138
+b7026bac-ce94-4bd8-a4ed-d0c25c5ebfd1,9ab882d0-6f22-49e9-b1fd-b81eca0944e2,,2025-11-07T10:57:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2550
+f3183176-7a39-4b12-b6ef-ccdf8912366e,96e37276-1375-4d08-8a3c-6ca28f005bad,,2026-02-06T22:46:33+00:00,warn,False,,escalation,decision-agent-v1,256
+0ebe7ce2-7a6e-4659-b689-d295a0fc2c52,241d1f33-cb61-450b-946b-ff83a23f24aa,,2025-11-25T20:30:33+00:00,warn,False,,data_pull,triage-agent-v1,284
+a67bba88-c10c-41c0-ab72-145146b3009f,ebc46ad4-c0bd-4175-9ac5-24d24ddf8bb7,,2026-02-13T12:57:33+00:00,warn,False,,draft_generation,resolution-agent-v1,1886
+25fe9d01-ea10-4e20-856a-33a06be86393,1120c1bd-9d58-4507-a19a-fba0f2009e22,,2025-10-20T10:44:33+00:00,pass,False,,data_pull,triage-agent-v1,62
+227b0f0b-080b-4259-bafd-f37504873880,7a9d8037-8703-4d48-8f39-c8aa00599646,,2025-11-18T18:24:33+00:00,pass,False,,escalation,decision-agent-v1,271
+0f401f2a-f984-4fa9-81ec-0fb88802486b,09933982-46c4-4435-adb2-b90f0d4fc975,,2025-10-22T20:55:33+00:00,pass,False,,resolution,decision-agent-v1,77
+d5fa2aa3-43cd-48ca-999a-5110b788ffbb,4fe90edf-d8bc-4a5b-bda3-1c700c7a260d,,2026-01-24T00:03:33+00:00,pass,False,,escalation,decision-agent-v1,154
+d164ceed-0914-425b-ada4-d2d06bb3ee32,5deaa909-4faa-4f03-8b9a-f49ffb573db9,,2026-01-26T18:13:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2140
+5ed11998-b870-4079-b093-39b446216d09,bad76f02-54ce-4382-b798-420bc3716aef,,2026-01-02T16:55:33+00:00,pass,False,,resolution,decision-agent-v1,178
+3108f362-2fe9-402f-897a-ce87ff848137,6ff80f44-ac8d-41b7-8e76-7502898c61ea,,2025-12-08T06:24:33+00:00,warn,False,,classification,triage-agent-v1,259
+b1d1e9ee-8879-4400-992e-b21d9f04f3f4,9d9fee84-f600-4066-b601-c902aa76072a,,2025-11-05T13:27:33+00:00,warn,False,,resolution,decision-agent-v1,210
+38d93786-3fe3-4918-8bd0-e9db63c7f847,79288f52-7745-4bf6-adff-21e410487f80,,2025-09-23T12:21:33+00:00,pass,False,,data_pull,triage-agent-v1,92
+6e881ded-7fc6-4061-995b-8ecabf45694a,85644abe-9047-49d6-8208-6ce014c576f5,,2025-12-12T21:57:33+00:00,warn,False,,resolution,decision-agent-v1,77
+74922ac1-6b18-40da-baa9-c32e271efe6b,76137173-6eff-46f6-94f0-cb37de447bd8,CR-010,2025-11-09T14:22:33+00:00,block,False,,compliance_check,resolution-agent-v1,1556
+ed32d651-7cec-4c3a-be8a-0ca332553eae,1df2f02b-d924-41f5-b5da-f3b4ba6171e5,CR-004,2025-09-27T23:11:33+00:00,pass,False,,compliance_check,resolution-agent-v1,2486
+e09035e7-be74-4ff3-b211-36c469820be7,267c9968-d91f-4cf3-9a59-7c290578d6ed,,2026-01-24T22:09:33+00:00,pass,False,,draft_generation,resolution-agent-v1,967
+c924fb79-bc09-4d4c-a691-6b2e66d48163,a0b52125-3bfe-4127-aaa8-d70eea730588,,2025-09-07T05:33:33+00:00,pass,False,,resolution,decision-agent-v1,124
+ce88bc6d-ea17-46e2-85bc-2d104f31c342,6f5f9d12-8714-4b39-9ce1-204116b72322,,2025-12-08T14:15:33+00:00,block,False,,data_pull,triage-agent-v1,244
+1844b60e-5533-449a-b26e-d1b0aeeee0b7,5ce1d92f-8d42-486e-b945-e3b2bae2da0d,,2026-01-27T16:39:33+00:00,pass,False,,escalation,decision-agent-v1,281
+bab13867-a777-4876-936c-b25393a1a62a,988dca8e-e5bd-4268-93e4-ff4c3d7e7ed9,,2025-10-02T10:29:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2444
+e1962cc6-f06a-4c05-bc31-1c8a60324432,c7493478-e472-4e52-8768-d86d06b6658a,,2026-01-01T11:09:33+00:00,pass,False,,escalation,decision-agent-v1,110
+911891a3-5d97-4a1c-a550-d757c2e27fa8,2d4d9d8b-3cd5-4b2e-8210-eddcc4162711,,2026-02-19T10:49:33+00:00,pass,False,,classification,triage-agent-v1,280
+50d9f6db-d601-457e-b77b-5a5087e3fb69,106de681-95e9-42d7-a18d-b6e50b83b544,,2025-12-28T11:40:33+00:00,pass,False,,data_pull,triage-agent-v1,153
+4b595745-9b7c-4db2-b06d-96669351cefc,85d72544-8e3e-4028-9aca-9b58d2456b90,,2026-01-15T17:28:33+00:00,block,False,,data_pull,triage-agent-v1,239
+21fcf33c-d4f5-458f-9589-9af913f8af80,52367191-4581-4bcd-9802-b1e690e4c4bc,,2025-12-07T21:36:33+00:00,pass,False,,escalation,decision-agent-v1,109
+cf4a9251-63f3-4503-88fd-00b284dbd135,b1aceea0-0852-4fd7-bc52-8f40782377fa,,2026-02-10T10:40:33+00:00,pass,False,,resolution,decision-agent-v1,106
+0fed939d-b8d8-45f8-8152-43c73cd42baa,056a222f-3369-49ee-af4d-9cff055f3f09,,2025-11-11T15:09:33+00:00,pass,False,,data_pull,triage-agent-v1,102
+aaf09b44-7c77-4157-8872-f66152557fae,73b88e8d-2b25-427b-9045-24cd78bcfc64,,2026-01-09T14:55:33+00:00,pass,False,,draft_generation,resolution-agent-v1,4024
+be92f19a-3ee1-4d0c-a826-955b171c4493,a0467d0a-bbb8-415a-927b-517c5efa7738,,2025-09-24T05:27:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2750
+12f4a694-0c28-4808-8efb-dda31e461ec0,9a0693e3-9f4a-4cb7-8288-3db2cc7b96df,,2025-10-28T17:28:33+00:00,pass,False,,resolution,decision-agent-v1,84
+015f9179-160d-4d11-b1a9-de2d10762462,6cff6a6d-4c91-44cc-b074-a4781f368915,CR-011,2025-10-28T10:46:33+00:00,pass,False,,compliance_check,resolution-agent-v1,858
+34ed704b-c839-40b5-b6ae-c2a6bd52c0b3,f9885b66-55ea-418e-bf0c-09a2a6778706,,2025-09-07T16:53:33+00:00,warn,False,,draft_generation,resolution-agent-v1,1910
+12d2de67-304e-4d00-91a5-53e91606ad26,728bd44b-9815-45e2-8b41-36563473f3ab,,2025-11-07T10:26:33+00:00,pass,False,,data_pull,triage-agent-v1,51
+e5a09665-4cfe-4b28-92a9-718e21d4d9fa,90e41607-cd6e-447a-a250-6242a733d717,,2026-01-21T04:57:33+00:00,pass,False,,data_pull,triage-agent-v1,279
+22b592a2-a91a-46d3-ac39-03e02032d847,3b7aeec9-4465-47eb-948e-64228db6f744,CR-001,2026-02-28T12:23:33+00:00,pass,False,,compliance_check,resolution-agent-v1,4408
+e7412e36-422f-469c-879d-28997db13688,480c4a2b-e1e5-4fb9-b28f-081208f7860b,,2025-11-14T15:42:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1329
+b6dbaf05-d713-4da1-8b41-a5647186d693,1807a752-9703-4f6b-b5ec-029b684ece2b,,2026-02-10T01:41:33+00:00,pass,False,,resolution,decision-agent-v1,205
+fb450695-3c1c-4254-bf64-f5fc53ddaddf,ec26daaa-0ead-4bb1-9e70-989290ec7703,,2025-09-06T23:39:33+00:00,pass,False,,resolution,decision-agent-v1,290
+29e60754-8370-4c86-9c2f-1549522ba71c,015afb29-8e75-4ff8-ab95-e1fd0c110179,,2026-01-03T08:14:33+00:00,warn,False,,draft_generation,resolution-agent-v1,1988
+df79cfa8-ef3c-41f9-bbcd-f5b922b0f133,b2844de7-f628-4233-83d5-961f31632ac4,,2025-10-14T11:17:33+00:00,pass,False,,escalation,decision-agent-v1,227
+e31e72e0-7f31-41a1-993f-48bbf09e7826,2fc21272-6815-49b3-9e0a-473443d6cbd6,,2025-11-10T05:03:33+00:00,pass,False,,data_pull,triage-agent-v1,251
+7c83382e-4910-4c7c-9064-158afa315711,73a61fe0-3d9a-47ff-a075-0e0210e6ccd0,,2026-01-08T02:16:33+00:00,warn,False,,escalation,decision-agent-v1,97
+85852326-34c9-46bb-bb12-39ea86e08eb3,143c2887-b9ee-48de-8b8c-61a6ae63adb8,,2025-10-21T11:31:33+00:00,pass,False,,data_pull,triage-agent-v1,207
+4e85ceb5-6185-4080-8c19-daf050f01bab,0828b756-2225-4da3-a0e6-ce8a8ce13b15,,2025-12-31T07:50:33+00:00,pass,False,,data_pull,triage-agent-v1,150
+369d362f-6755-43a7-899e-48a9599fc887,aa063ded-81fd-419b-b254-863fcfdd814c,,2025-09-22T18:22:33+00:00,warn,False,,classification,triage-agent-v1,71
+7003c0bd-0663-45d9-aa48-a34d89bf04d4,ea226820-61dd-4aa4-b974-5f057c0d43d0,,2026-02-23T01:06:33+00:00,pass,False,,classification,triage-agent-v1,92
+886e54e8-9db5-4d5c-970f-75925a2a22a7,4d144508-d24e-4985-bb9f-a6d73876f424,,2026-02-17T04:47:33+00:00,pass,False,,escalation,decision-agent-v1,293
+044a496c-ff53-470b-a7a2-8532f6dd8e6e,be6dc447-36d1-4970-a9b0-c4c17f510e15,,2025-11-19T21:37:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2820
+916d3a70-1bae-40de-bf51-f11eb48deeb3,988dca8e-e5bd-4268-93e4-ff4c3d7e7ed9,,2025-12-27T14:44:33+00:00,pass,False,,data_pull,triage-agent-v1,111
+032d2f2d-511e-41a2-88b3-a9cd4e5fde1a,26d95d89-2432-4583-8b83-250e6e2c51ca,,2025-11-15T14:12:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1566
+12b054a6-e91e-46e2-a579-704aadc10128,988dca8e-e5bd-4268-93e4-ff4c3d7e7ed9,,2025-12-20T19:49:33+00:00,pass,False,,escalation,decision-agent-v1,169
+33f675b8-e20b-4c95-a6ba-308642b800f3,6c2b3d6e-e17d-458a-8eef-ac210d038ac6,,2025-09-30T04:08:33+00:00,pass,False,,escalation,decision-agent-v1,222
+14753412-da1f-4e8c-8eb9-d414907b0c21,10b50d1b-2717-4798-8b42-a387152dede0,CR-012,2025-12-14T14:04:33+00:00,pass,False,,compliance_check,resolution-agent-v1,2033
+90d93055-b590-4126-b3a6-0264a6fa0db6,4abd0a0f-2c31-490c-a8cb-c6d16286a70e,,2025-10-06T16:25:33+00:00,warn,False,,resolution,decision-agent-v1,264
+2c09985c-8880-4898-b895-a63cd2b24e1b,75d5cf46-73e1-4437-8ebe-1dac2706b551,,2026-01-30T21:47:33+00:00,pass,False,,escalation,decision-agent-v1,288
+8527b9a5-b09c-4e3e-afb1-262467efed9e,267c9968-d91f-4cf3-9a59-7c290578d6ed,,2025-11-04T19:24:33+00:00,warn,False,,data_pull,triage-agent-v1,91
+7027240c-7d8d-44ed-978e-cd0b984811c1,7258f950-8b50-44d3-b5b1-5ba15427802a,,2026-02-04T00:30:33+00:00,pass,False,,resolution,decision-agent-v1,85
+445f3545-bf9e-4c42-8d75-93c72246e374,9c8cf56a-0e38-4cdc-bd1f-b2f18ec48113,,2026-01-29T12:49:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1606
+e8cc7025-2410-41f6-8316-847cfca5487b,3376b83f-e6d2-4f64-b906-dfa0bee59eaa,,2026-01-05T19:34:33+00:00,pass,False,,classification,triage-agent-v1,293
+dc042084-ff17-4fca-a80e-11a0cc54ce32,96e37276-1375-4d08-8a3c-6ca28f005bad,,2026-01-02T08:22:33+00:00,pass,False,,draft_generation,resolution-agent-v1,4471
+b4701d79-aa84-45c2-b1ea-c7056a47f364,502260e4-3d83-4b28-89ae-08cda08faed5,,2026-01-11T17:11:33+00:00,pass,False,,resolution,decision-agent-v1,267
+8c7175fd-41bd-44d8-b4c2-9232495c6efa,7398ab79-9746-4a39-8f05-c6b08c5077ad,CR-009,2025-12-20T19:02:33+00:00,warn,False,,compliance_check,resolution-agent-v1,2352
+707cce52-3d54-43a2-9ce0-30ce1aba8594,e7ab661a-44de-4d12-bdec-5b17be5e423b,,2025-12-11T15:42:33+00:00,pass,False,,escalation,decision-agent-v1,93
+2dc89f52-0761-4581-ab5c-cb8748aeb699,16931a55-3c8d-4bf4-9d78-3fdca4e03e4f,,2025-12-09T12:49:33+00:00,block,False,,resolution,decision-agent-v1,295
+27bee698-11fc-4cee-b6b0-003a810cfe4d,24d84ade-92b9-4cf4-bc5e-05cdf6474788,,2025-10-10T00:11:33+00:00,warn,False,,data_pull,triage-agent-v1,50
+a6bb9275-12d0-4eb6-8406-5129b0bd2fbd,351202c0-93ad-43b2-a0f4-c50cd246f5e4,CR-014,2025-12-08T23:26:33+00:00,pass,False,,compliance_check,resolution-agent-v1,2961
+1f6fb75e-7fe0-4e65-b26c-7be4173f0bb9,5ba3f178-94b0-4721-85e6-2c4a728c1bed,,2025-12-20T00:50:33+00:00,pass,False,,escalation,decision-agent-v1,110
+b6aa2662-52de-4630-8b84-8882fb43e5b2,e7d1e186-2afc-44c9-8f1a-8bd0568a4880,,2025-11-11T07:27:33+00:00,pass,False,,escalation,decision-agent-v1,236
+40442a9d-c1a0-44bd-8957-66a5b4480673,502260e4-3d83-4b28-89ae-08cda08faed5,,2025-10-03T10:38:33+00:00,pass,False,,data_pull,triage-agent-v1,296
+b2fd9798-63d8-41ef-9670-7d3c2a2ade1b,32f16230-70dc-4897-b603-52437a830a97,CR-006,2025-10-08T02:43:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1012
+8924504a-e15e-42e3-a3c3-1f2a48788d3a,8400b4fc-0081-4f75-a31e-f46ade67c7d2,,2025-10-29T22:54:33+00:00,pass,False,,resolution,decision-agent-v1,95
+e4bbc010-2f72-4772-8f69-e28bbd67c0dc,a73ebd4b-28b3-4eca-996d-e1e9904e330b,CR-015,2026-02-22T15:36:33+00:00,block,False,,compliance_check,resolution-agent-v1,4436
+4efa6796-9bed-435a-89f7-651245d73ac3,241d1f33-cb61-450b-946b-ff83a23f24aa,,2025-10-07T20:39:33+00:00,warn,False,,resolution,decision-agent-v1,295
+849f88cb-9b98-4c8e-97e1-ce4e0b20deca,f6ef66dc-23b6-4989-90e6-2895fddf0f4a,,2026-02-21T21:22:33+00:00,pass,False,,classification,triage-agent-v1,186
+0102709b-d7dd-4e88-a3a9-519a9187d39e,5ce1d92f-8d42-486e-b945-e3b2bae2da0d,CR-009,2026-01-20T01:33:33+00:00,pass,False,,compliance_check,resolution-agent-v1,856
+0b67f694-1092-4c7b-81ee-fb5d23936b69,4abd0a0f-2c31-490c-a8cb-c6d16286a70e,,2025-11-03T08:29:33+00:00,pass,False,,data_pull,triage-agent-v1,278
+012ca098-01fb-4788-9f3c-edfc06e38b9c,b9abe0e7-70f0-40be-90e6-d59c847d6118,,2025-11-18T22:34:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2303
+bb2ba780-9625-4b8e-a40d-5a4e282e8625,344740f6-40db-47af-8abe-b8714d710791,,2025-11-09T10:34:33+00:00,pass,False,,classification,triage-agent-v1,233
+f296d855-3d76-419e-9a35-35cb2f21cafd,2d4d9d8b-3cd5-4b2e-8210-eddcc4162711,,2025-09-29T01:31:33+00:00,pass,False,,escalation,decision-agent-v1,292
+9fe36876-3246-4110-b854-28a7868be112,dda07486-5ef3-440d-b3b6-b4c5be9d6f7d,,2025-10-20T05:21:33+00:00,warn,False,,escalation,decision-agent-v1,73
+f18378a4-a21c-434c-b69f-019f6ccf24a3,b27dce8f-135f-4df1-91e2-94fd8ff42cc2,,2026-01-03T03:58:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2209
+b8c50d54-a4ad-431a-8f9a-24e2b63b3552,e7ab661a-44de-4d12-bdec-5b17be5e423b,,2025-10-20T08:28:33+00:00,pass,False,,resolution,decision-agent-v1,289
+259aeef9-11e1-497b-9727-80cdc0263295,7df76293-ab83-4d57-aa17-80604b06b1c9,,2025-09-07T10:09:33+00:00,warn,False,,data_pull,triage-agent-v1,139
+70817f5c-8720-4f62-a734-435909883ad1,397c4b6f-1b02-4c33-99b2-c572a991bb54,CR-003,2026-01-23T14:48:33+00:00,pass,False,,compliance_check,resolution-agent-v1,3164
+3055365d-43e0-4fd3-876b-05d4df83aa27,0bdb9ffd-1edb-4c2a-abd8-2ff2c5ddde8a,,2025-11-27T00:10:33+00:00,pass,False,,classification,triage-agent-v1,90
+9d9ad484-d64d-4153-a03f-a3f5f96ed106,5921bfd7-2943-4113-bb16-9dc90fd58184,,2025-11-13T11:14:33+00:00,pass,False,,data_pull,triage-agent-v1,240
+ae9a1da8-dbcc-499b-bbb8-c6f13e8a1277,52367191-4581-4bcd-9802-b1e690e4c4bc,,2025-12-06T14:06:33+00:00,block,False,,data_pull,triage-agent-v1,111
+c8d00bb4-ec40-4edc-87e8-48667fb0dcf3,1f30c6a4-c3af-4d76-afe2-4e27980278bf,CR-015,2026-02-24T21:41:33+00:00,pass,False,,compliance_check,resolution-agent-v1,885
+fd2e11e0-378b-429c-8ec0-7995af774e88,06839f90-4c64-4ba9-b553-000ee1977894,,2026-01-16T15:17:33+00:00,block,False,,escalation,decision-agent-v1,137
+9cce93c0-0dcc-4463-8edc-660cc0ea2994,91b43a42-778a-4d10-8f47-1e61022a02f1,CR-014,2026-02-09T02:22:33+00:00,block,False,,compliance_check,resolution-agent-v1,1635
+659099c4-6810-4f77-9067-36dd914f70c1,e7ab661a-44de-4d12-bdec-5b17be5e423b,,2025-11-04T05:22:33+00:00,pass,False,,resolution,decision-agent-v1,123
+9bea2f11-bce8-41f7-a67e-17094b8a017a,d639f721-df33-421a-a051-5ee354ea2e68,,2026-01-02T04:51:33+00:00,pass,False,,escalation,decision-agent-v1,216
+7434078f-85c6-48d1-898b-75bfb90f9a1e,c7cbc0b7-26f5-4b68-afaa-717062e02854,,2026-02-27T04:27:33+00:00,warn,False,,resolution,decision-agent-v1,143
+a98e6fa9-8f4d-4caa-b69c-7e0074e950e5,432b2e47-3fa0-4bd3-830a-484b63d9620b,,2026-01-08T11:01:33+00:00,pass,False,,classification,triage-agent-v1,253
+5450c357-c59f-493b-9789-f2ddd096fb1a,1bad9d7e-61a9-4460-bd90-d3001b7db2b0,,2025-09-17T09:58:33+00:00,warn,False,,draft_generation,resolution-agent-v1,1990
+df66c0f6-398c-4d68-8116-e2fd33e3f268,08861ead-b817-4391-b28b-8fb4a0cf3f86,,2025-12-25T07:30:33+00:00,pass,False,,data_pull,triage-agent-v1,262
+b3ef469c-04f4-4826-939f-cf134aa0744f,157c12e3-61bd-4f20-b47c-91a552f90704,,2025-09-12T14:10:33+00:00,pass,False,,classification,triage-agent-v1,75
+0d71e254-2fa8-47c3-af87-de495f56f500,f0f62511-8381-4ecb-9bd5-19381a575e30,CR-007,2025-12-05T00:19:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1663
+815cf50a-79d6-4135-986e-73a13547221f,36001e34-1058-49b2-84e2-f72fc2eb15e3,,2025-10-01T01:51:33+00:00,block,False,,data_pull,triage-agent-v1,154
+da493d9b-604e-40f6-88ed-9609af69861d,17bbfd09-1fe1-41e4-b466-d09d361e3bc9,,2026-01-04T15:11:33+00:00,pass,False,,data_pull,triage-agent-v1,64
+1f7017c0-86ac-400e-868c-a4612173e15e,ea226820-61dd-4aa4-b974-5f057c0d43d0,CR-015,2026-01-22T14:10:33+00:00,warn,False,,compliance_check,resolution-agent-v1,2785
+6a3cf60c-88d6-4157-b6bd-f4e58d493db7,87a495ea-45ce-4279-b6cb-feaea3915dc5,,2026-02-12T18:43:33+00:00,warn,False,,data_pull,triage-agent-v1,116
+4b0bc717-6c9d-4108-b33f-0378c0dc5d7c,d6f56c44-5f36-4c70-854b-a21674d58e9e,,2025-10-21T09:56:33+00:00,warn,False,,classification,triage-agent-v1,171
+9ff6e0cc-ceb1-4b67-b421-85f51d05a58b,1adbd666-3296-4362-a44d-8f8ec4ff0ac9,,2025-09-28T12:50:33+00:00,pass,False,,escalation,decision-agent-v1,226
+598be119-283b-4e5e-8a82-1f9e510b6a7c,d72380ff-931f-4b7c-9173-8ea2ae458112,,2025-10-12T19:34:33+00:00,pass,False,,escalation,decision-agent-v1,299
+e50f8704-e784-42ca-94ac-0ddfa078563a,3c8aceec-1580-4887-94c3-40c36e59831f,,2026-02-16T16:56:33+00:00,pass,False,,classification,triage-agent-v1,138
+0c195049-55bd-482a-a198-a7017c8c3f49,0f980e81-82a0-415b-9074-692411f33c05,,2025-10-12T14:37:33+00:00,pass,False,,data_pull,triage-agent-v1,128
+4aef5c40-1734-44f0-9c63-17a5b9f0b08d,351202c0-93ad-43b2-a0f4-c50cd246f5e4,,2025-11-04T11:28:33+00:00,warn,False,,draft_generation,resolution-agent-v1,3001
+58033567-042f-4e26-a2eb-0c5ae6358580,a4ebd681-6456-4f76-b79a-1f5c053edc87,,2025-12-24T06:15:33+00:00,warn,False,,draft_generation,resolution-agent-v1,3699
+2f257039-df48-4b9f-996f-782c51424834,8beef5b6-5e37-405d-b19b-9e573c2a798e,CR-007,2025-10-21T09:46:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1653
+2a0113d3-e2a4-4f2d-84b3-40af40174ba9,cbe00c49-b30c-42f3-b55d-34b187a73f38,,2025-09-16T22:02:33+00:00,warn,False,,escalation,decision-agent-v1,272
+1a61d99e-4afb-4abf-a73c-433890318130,6c2b3d6e-e17d-458a-8eef-ac210d038ac6,,2025-09-16T22:08:33+00:00,pass,False,,classification,triage-agent-v1,284
+56f124f4-c5cf-4f0f-9696-485866f0b3f6,5e3d6727-cd42-44b7-990b-6381e1d5e9af,,2025-10-07T02:50:33+00:00,warn,False,,classification,triage-agent-v1,190
+682fb796-09f2-4891-a945-01e451fd1224,247de2e5-9c4e-4e46-9c1f-f528ea1e1953,,2025-12-12T11:02:33+00:00,pass,False,,classification,triage-agent-v1,246
+9f034713-3fca-42c6-a102-e2ac21483f23,1df2f02b-d924-41f5-b5da-f3b4ba6171e5,,2026-02-18T16:33:33+00:00,warn,False,,data_pull,triage-agent-v1,182
+2d588105-5752-4157-8958-2eb559885b1a,7bbd4f39-2955-41e4-b2c9-4092b9080483,,2025-09-24T17:32:33+00:00,pass,False,,classification,triage-agent-v1,215
+c20378c9-64a9-434a-89b9-666c7c534e39,79288f52-7745-4bf6-adff-21e410487f80,,2026-01-17T19:21:33+00:00,pass,False,,escalation,decision-agent-v1,274
+98fc583a-7118-4f7e-b31f-2f8688192c46,eefaec1d-a473-4ad9-9822-5a9a270ce2d3,,2025-10-03T23:10:33+00:00,pass,False,,draft_generation,resolution-agent-v1,936
+4334665e-268b-42d4-8184-38a54235ae5d,3a4b95ca-792c-4d3d-bf45-9cda4f1c96db,CR-013,2025-09-21T17:47:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1401
+9cee7f12-ed8a-4e2e-ba85-f1f62bb0c51c,960e41e5-5405-4227-b188-f645ed258391,,2025-10-30T17:31:33+00:00,warn,False,,escalation,decision-agent-v1,225
+537662c7-44af-4a01-b953-13e66d6e5f78,408b8da7-2a3c-4298-82b9-913c8b7586c4,,2025-09-14T18:42:33+00:00,pass,False,,classification,triage-agent-v1,238
+331bf57b-40a9-48a5-816c-f49f5de8acdb,c0db797f-d7c1-4304-be30-4967325ca041,,2025-12-21T22:29:33+00:00,pass,False,,classification,triage-agent-v1,108
+2cd5b1e4-effe-406e-ae71-f00ecc9bb633,77edf41a-7046-495e-8e5b-e7a077e8f3fe,,2025-09-30T10:24:33+00:00,pass,False,,data_pull,triage-agent-v1,187
+bd35cf72-6078-4925-8f2c-818c94e8e76e,3c8aceec-1580-4887-94c3-40c36e59831f,,2025-12-09T13:27:33+00:00,warn,False,,resolution,decision-agent-v1,202
+47cdb6e5-94bf-4024-872f-027f0bb4d144,cfbda653-48a5-4559-9d2b-47566c73ce05,,2025-11-30T13:33:33+00:00,pass,False,,data_pull,triage-agent-v1,248
+98864b2b-0557-4dcc-b7b5-f115fbf3ffdb,65a2b66e-b0a4-4263-bf7a-9a5b220c7286,,2025-10-21T20:21:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2957
+5bc07ac9-52ca-4e3a-bea4-8c24ca8dfed9,f0f62511-8381-4ecb-9bd5-19381a575e30,,2026-01-25T16:07:33+00:00,pass,False,,escalation,decision-agent-v1,210
+e061ced2-81be-49df-97f1-eff089df2eac,7df76293-ab83-4d57-aa17-80604b06b1c9,,2025-12-16T04:59:33+00:00,warn,False,,draft_generation,resolution-agent-v1,4328
+7dfefd29-baf3-4642-b733-5375d05ecd94,6132f7e8-3b1b-45b8-9457-9078f3aafd6a,,2025-11-28T00:21:33+00:00,warn,False,,draft_generation,resolution-agent-v1,2111
+d5d31934-9d1d-41af-b1bf-6a611ffc6a6f,cda0c4c4-d520-4fbc-8cd2-900137a0871c,,2025-10-21T21:18:33+00:00,block,False,,data_pull,triage-agent-v1,221
+2c99eccf-76a3-49b4-842e-1ff497ab3881,7df76293-ab83-4d57-aa17-80604b06b1c9,,2026-02-08T23:36:33+00:00,pass,False,,resolution,decision-agent-v1,279
+6a6e9df8-fc4f-4a99-a2dc-9bf99284e6d7,c69e49da-8a6c-427a-b579-1b4bb258fbfc,,2025-12-04T01:49:33+00:00,warn,False,,escalation,decision-agent-v1,251
+13f16eb6-b2f0-4ce7-867a-a78a6b3fd480,6f5f9d12-8714-4b39-9ce1-204116b72322,,2025-09-12T15:49:33+00:00,pass,False,,data_pull,triage-agent-v1,62
+1e997471-3c5e-4ee7-a26a-ea0c8312430e,0828b756-2225-4da3-a0e6-ce8a8ce13b15,CR-013,2025-10-22T16:25:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1495
+0287c333-ae6b-4a5d-9628-fc8952257644,01b02cf3-f122-4382-8f52-d0ef6039aea3,,2025-10-06T07:53:33+00:00,pass,False,,classification,triage-agent-v1,293
+70658d29-c12b-4ec3-9461-1edebc545528,40a66ad0-f842-46b3-804a-94240ebb898a,,2025-09-24T02:02:33+00:00,pass,False,,data_pull,triage-agent-v1,51
+4c2e87c7-dbc6-4065-9cc9-923b314e3a3b,0665be7e-d1d2-410b-acbb-7c0c87e01093,,2026-02-12T03:41:33+00:00,block,False,,classification,triage-agent-v1,80
+b92526a0-3cce-4eaf-9d0a-887f101fab6b,a2b90015-7079-44df-b054-1ad57c33427a,CR-008,2025-09-12T20:56:33+00:00,warn,False,,compliance_check,resolution-agent-v1,2541
+c2c5f610-4714-4bf3-a717-97685450cb81,833d6e91-abdc-44bf-9e1f-dd436a9e7139,,2025-10-26T05:49:33+00:00,pass,False,,escalation,decision-agent-v1,169
+3c7da349-0f26-4a09-a7aa-58f0a4bb8c73,7a424418-6da2-40af-8d5f-58d5ca25b629,,2025-12-07T01:30:33+00:00,block,False,,draft_generation,resolution-agent-v1,3203
+634ce639-7eb0-44b7-96d3-0ee707145547,aff77518-6c0d-4c93-8eec-506f7101a039,CR-005,2025-09-06T10:48:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1373
+63a35785-65f3-4177-9569-8c65b1a21d8b,7bbd4f39-2955-41e4-b2c9-4092b9080483,,2025-12-15T09:52:33+00:00,pass,False,,data_pull,triage-agent-v1,285
+6ca5e9ab-5512-45bb-aab1-6213dbbe9310,241d1f33-cb61-450b-946b-ff83a23f24aa,,2025-11-15T08:57:33+00:00,pass,False,,data_pull,triage-agent-v1,166
+78275455-8eb3-4923-beb4-688b6fb961e7,85644abe-9047-49d6-8208-6ce014c576f5,,2025-12-31T03:01:33+00:00,pass,False,,draft_generation,resolution-agent-v1,4033
+41de17cf-e040-4333-80d5-ccf986ba09c8,9638019a-32a6-4cb2-93b6-6875964ed01d,,2026-01-04T12:06:33+00:00,pass,False,,classification,triage-agent-v1,88
+bd54df1f-9c60-4e5f-83f0-4195151179f1,ff3fb573-9994-4e30-aada-a7069187634b,,2025-10-31T00:40:33+00:00,pass,False,,escalation,decision-agent-v1,91
+d183b2d7-6782-4e85-8182-03d856e286d6,a8ac992e-7a83-457e-be62-9a60e9d468df,,2026-01-16T22:52:33+00:00,block,False,,classification,triage-agent-v1,279
+ea203738-4d1c-4d11-ac78-078d6f563379,06839f90-4c64-4ba9-b553-000ee1977894,,2025-09-12T17:57:33+00:00,pass,False,,resolution,decision-agent-v1,79
+bbd2f7f6-898b-4b49-928f-040c2a6c064f,696877f9-52a5-46a1-8471-9e211882d105,,2026-02-16T01:19:33+00:00,pass,False,,draft_generation,resolution-agent-v1,3269
+df595d52-34bd-4d8a-a5da-cd6bc2ddf482,922b8893-0f3d-408d-9451-547014e00c77,,2025-12-14T03:16:33+00:00,pass,False,,escalation,decision-agent-v1,125
+d31ec94b-7e0c-45b4-a2df-97b1e1fb18fd,5921bfd7-2943-4113-bb16-9dc90fd58184,,2025-09-16T05:51:33+00:00,pass,False,,data_pull,triage-agent-v1,56
+c62bbf0b-22fe-4f1c-8cab-6a1f5c2314f2,1adbd666-3296-4362-a44d-8f8ec4ff0ac9,,2026-02-10T01:34:33+00:00,pass,False,,draft_generation,resolution-agent-v1,3078
+d80e3996-fcc8-46b1-bcd1-dec78df9cb86,85644abe-9047-49d6-8208-6ce014c576f5,,2026-02-15T07:25:33+00:00,block,False,,data_pull,triage-agent-v1,121
+68eaab2a-85dd-401c-b04b-da7259d8eb64,b66005d1-22a6-4dfa-abc2-7ab97a09784b,,2025-10-08T06:07:33+00:00,pass,False,,escalation,decision-agent-v1,239
+29b60d8d-a57f-408d-8fae-7aa482735e56,b1aceea0-0852-4fd7-bc52-8f40782377fa,,2025-09-12T15:53:33+00:00,warn,False,,draft_generation,resolution-agent-v1,3663
+96b06433-8f31-4718-b556-2fa23b885d34,3a4b95ca-792c-4d3d-bf45-9cda4f1c96db,,2026-02-21T22:19:33+00:00,pass,False,,draft_generation,resolution-agent-v1,3017
+c340fce4-7ba2-42b6-8356-5fc27262b3a4,3b7aeec9-4465-47eb-948e-64228db6f744,,2025-10-20T22:09:33+00:00,block,False,,data_pull,triage-agent-v1,230
+c42433a2-4d86-4480-949f-3c73a7fd35ee,b66005d1-22a6-4dfa-abc2-7ab97a09784b,,2026-01-31T08:35:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1449
+0eb8e0d0-63b2-4078-881f-258e38c259dd,aff77518-6c0d-4c93-8eec-506f7101a039,,2025-10-03T06:41:33+00:00,pass,False,,data_pull,triage-agent-v1,93
+cb2c932f-7715-4a77-9248-bfb524058271,4063ff84-b451-49f1-80bc-277a729ddca5,,2025-12-31T07:38:33+00:00,pass,False,,escalation,decision-agent-v1,199
+3d5cd87b-00f0-40ea-a435-4de2f43dd33c,1120c1bd-9d58-4507-a19a-fba0f2009e22,CR-009,2025-11-26T17:07:33+00:00,warn,False,,compliance_check,resolution-agent-v1,1307
+0354f44e-38c6-4221-af19-cc47530fb124,d639f721-df33-421a-a051-5ee354ea2e68,,2026-02-27T01:45:33+00:00,warn,False,,draft_generation,resolution-agent-v1,1090
+65c7473d-8f5d-4914-89ed-cb4b162954a2,36c9668a-af2d-46db-83a4-d6aebc6bf831,,2025-10-15T04:09:33+00:00,pass,False,,classification,triage-agent-v1,120
+be325d50-58ae-4712-b538-115567d7127b,351202c0-93ad-43b2-a0f4-c50cd246f5e4,,2025-11-12T02:03:33+00:00,pass,False,,classification,triage-agent-v1,88
+bc2a4e87-a26c-4a92-8eae-aed5175fa647,38355d56-3a92-4d16-aafa-fc53cf92e697,,2026-01-22T12:03:33+00:00,pass,False,,resolution,decision-agent-v1,171
+3c0e89a9-ceaf-4097-8fca-6156948d8bb3,7b07b8b2-1157-44d3-8dcb-fdbc49ace41a,,2025-10-18T03:41:33+00:00,warn,False,,escalation,decision-agent-v1,241
+c5c4165f-97e3-45b2-8270-8cd3303dc8b7,a73ebd4b-28b3-4eca-996d-e1e9904e330b,,2025-11-25T23:37:33+00:00,warn,False,,draft_generation,resolution-agent-v1,2932
+a9a45c21-1b54-4823-857b-9f2940447a14,9ea6f83e-4374-4383-a3fb-fed7104e5380,,2025-12-22T09:42:33+00:00,pass,False,,escalation,decision-agent-v1,292
+a70cfde8-d332-4214-9623-555c71adb6e3,126fc271-075b-4a7e-a55b-90476c27736c,,2025-09-29T05:14:33+00:00,pass,False,,resolution,decision-agent-v1,154
+9dd02ff2-0fca-4de7-ba34-1e0bfeaadf97,480c4a2b-e1e5-4fb9-b28f-081208f7860b,,2025-09-11T00:35:33+00:00,block,False,,draft_generation,resolution-agent-v1,2424
+e98f0f6e-1984-46d8-8b2c-b8519cefea62,997700e4-1482-4d6b-b18b-57857a847427,,2025-11-21T14:44:33+00:00,pass,False,,classification,triage-agent-v1,142
+14afe599-21b9-4fb3-87c2-792409db89d0,988dca8e-e5bd-4268-93e4-ff4c3d7e7ed9,CR-012,2025-11-16T02:16:33+00:00,pass,False,,compliance_check,resolution-agent-v1,2219
+70590c38-0f12-4d4d-be35-e22c5f046ecc,a8ac992e-7a83-457e-be62-9a60e9d468df,,2025-12-29T02:13:33+00:00,pass,False,,data_pull,triage-agent-v1,111
+c8ca3746-4152-4037-99bc-1566c897b7f2,5e69d7c2-949b-406b-8814-c61da8024402,,2025-10-17T06:28:33+00:00,pass,False,,classification,triage-agent-v1,299
+81ac0852-edf3-4883-8be7-825caaa0d1bc,22e60abe-4f04-42c8-9af3-90e08415787c,,2026-02-03T14:14:33+00:00,warn,False,,classification,triage-agent-v1,180
+754f1f52-e92a-4af8-a436-90f797ab3ada,6c0375f9-72d6-4d13-b4a9-dabbed4e1a36,,2025-12-05T15:12:33+00:00,pass,False,,data_pull,triage-agent-v1,88
+05bbd23f-332f-460c-a0d4-71628e50b783,106de681-95e9-42d7-a18d-b6e50b83b544,,2025-11-23T09:48:33+00:00,pass,False,,classification,triage-agent-v1,260
+a92b3533-7536-48cf-85eb-24326861bb68,4bbefc5e-1760-4c22-9282-f81a9fd84048,,2025-10-26T01:00:33+00:00,block,False,,escalation,decision-agent-v1,137
+987cc854-fcd1-4d5a-915f-f72d81aa1bf1,eefaec1d-a473-4ad9-9822-5a9a270ce2d3,CR-003,2025-12-01T02:39:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1113
+5703f53a-7c5a-4ea1-b380-9ffced439223,f1811956-ef07-432a-a2c3-7089bcb8e447,,2025-09-14T16:30:33+00:00,block,False,,escalation,decision-agent-v1,226
+850a0083-fe98-42d6-8f0a-834f3f2aa468,d7971913-a148-4dee-b6c7-40758000c48d,,2025-12-08T21:27:33+00:00,pass,False,,classification,triage-agent-v1,158
+9def4611-5c88-4055-a1df-36c710ee61ad,7a424418-6da2-40af-8d5f-58d5ca25b629,CR-012,2025-11-09T21:26:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1309
+8f1b973a-513d-43a4-9b81-fffb63c50d64,ef4a28b1-ce85-454f-bc62-ac54e86a8237,CR-007,2025-12-02T01:10:33+00:00,warn,False,,compliance_check,resolution-agent-v1,1468
+d1717937-82d1-4344-aa0d-542ae2efba24,498b6b00-339a-4ed6-a6fe-8ccf07616dbb,,2025-09-28T05:22:33+00:00,pass,False,,classification,triage-agent-v1,123
+b25daef4-6f16-447c-81cd-689aaa06ffdb,9e270736-c897-418d-9ea7-94a923b25b61,,2026-01-08T20:58:33+00:00,pass,False,,escalation,decision-agent-v1,288
+9a4ed8a9-7b2e-42b0-b01d-e20a09beec2c,3b7aeec9-4465-47eb-948e-64228db6f744,CR-012,2026-02-11T00:58:33+00:00,pass,False,,compliance_check,resolution-agent-v1,2160
+d8790de1-03db-40e5-99a5-6d213fa1510a,7a9d8037-8703-4d48-8f39-c8aa00599646,,2026-01-06T08:01:33+00:00,pass,False,,escalation,decision-agent-v1,81
+3e8ded46-fcef-4d86-a104-2dc9b8ea9ead,0f980e81-82a0-415b-9074-692411f33c05,,2025-10-07T17:02:33+00:00,pass,False,,resolution,decision-agent-v1,209
+3b2b8b1a-0718-4e31-9afb-1a7604352cec,32f16230-70dc-4897-b603-52437a830a97,CR-006,2025-10-14T20:09:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1103
+fa516db1-3a3d-4091-9ea4-6fb06e55f2c7,57794a58-6870-4a7b-978d-ff85fad6398e,,2025-10-08T17:01:33+00:00,pass,False,,escalation,decision-agent-v1,219
+53b228b7-8afb-4815-b282-532921d5aaf8,728bd44b-9815-45e2-8b41-36563473f3ab,,2026-01-25T16:56:33+00:00,pass,False,,data_pull,triage-agent-v1,77
+571acb77-360e-429e-bd7a-2296dd77940a,79288f52-7745-4bf6-adff-21e410487f80,,2025-09-06T16:41:33+00:00,pass,False,,draft_generation,resolution-agent-v1,3826
+00cdc20d-09bf-406f-9406-0c7665ca0cd8,056a222f-3369-49ee-af4d-9cff055f3f09,,2026-01-14T07:37:33+00:00,pass,False,,resolution,decision-agent-v1,106
+a8c3d8c8-9f52-4f47-a189-6f294c9e4d32,e7ab661a-44de-4d12-bdec-5b17be5e423b,,2026-01-16T01:52:33+00:00,warn,False,,classification,triage-agent-v1,272
+38c8a57b-10fc-479c-ad1d-45a36177628c,cda0c4c4-d520-4fbc-8cd2-900137a0871c,CR-003,2025-09-21T20:36:33+00:00,pass,False,,compliance_check,resolution-agent-v1,3135
+c17de5c7-f934-474f-bea4-d232193fd351,e9821c3d-b0cb-4967-b13e-bf2300695732,,2026-01-14T11:08:33+00:00,pass,False,,data_pull,triage-agent-v1,218
+8cb04428-5bf0-47dc-9da5-7e182fee6da1,cb0f4855-5eef-4f1c-9dee-f52a09c07527,CR-014,2025-09-28T13:15:33+00:00,pass,False,,compliance_check,resolution-agent-v1,3690
+e830e411-d366-4f96-a599-6fcba9ede1e8,1120c1bd-9d58-4507-a19a-fba0f2009e22,CR-013,2025-11-22T07:29:33+00:00,block,False,,compliance_check,resolution-agent-v1,2417
+ac51a318-3edd-47ba-a3e3-15e8b3816c10,16931a55-3c8d-4bf4-9d78-3fdca4e03e4f,,2025-10-27T11:40:33+00:00,pass,False,,classification,triage-agent-v1,287
+42733d04-b6b5-4256-bcd4-7fe058702507,aa063ded-81fd-419b-b254-863fcfdd814c,,2026-02-24T19:02:33+00:00,block,False,,classification,triage-agent-v1,124
+cbf31d9f-5720-4eed-a8bd-690c1bd57059,83dd6cd3-633c-4850-96da-0f4e5b438ca1,,2026-01-14T13:40:33+00:00,warn,False,,resolution,decision-agent-v1,229
+6dbecb13-2617-4222-8510-e69652c6003e,ba6901d7-93a6-4c80-8924-fae8a7441fd7,,2026-02-03T03:51:33+00:00,pass,False,,classification,triage-agent-v1,251
+2d0b1db2-b32d-4a9d-ae3c-2d421427376c,4abd0a0f-2c31-490c-a8cb-c6d16286a70e,,2026-02-25T14:30:33+00:00,pass,False,,resolution,decision-agent-v1,135
+44e2331b-1d4f-4d1c-b3f1-b8c034120338,9e270736-c897-418d-9ea7-94a923b25b61,,2025-09-11T22:03:33+00:00,pass,False,,data_pull,triage-agent-v1,88
+092d5554-de31-4e49-84ce-92410441711e,fc5aa83c-cda6-4bca-86da-9495cec4d3d6,,2026-01-23T10:53:33+00:00,pass,False,,data_pull,triage-agent-v1,291
+931e68e2-2989-4455-b730-de5bb95876ce,c7493478-e472-4e52-8768-d86d06b6658a,,2026-01-19T13:55:33+00:00,pass,False,,data_pull,triage-agent-v1,62
+e54fcb52-7090-4108-a174-3933a475ec4f,91b43a42-778a-4d10-8f47-1e61022a02f1,,2025-11-02T01:44:33+00:00,warn,False,,draft_generation,resolution-agent-v1,3204
+4ff1b0ff-db8e-4282-8eb2-85e8769b6160,e36c3e3b-8340-4037-a214-d3c12055d3a8,,2026-01-01T13:05:33+00:00,pass,False,,resolution,decision-agent-v1,123
+97a5d41c-ace1-47e5-a933-96d0cca3bd01,3b7aeec9-4465-47eb-948e-64228db6f744,,2026-02-28T04:13:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1711
+0645b024-3ea6-48c8-886a-6e47f8de4d55,241d1f33-cb61-450b-946b-ff83a23f24aa,,2025-09-09T08:34:33+00:00,pass,False,,classification,triage-agent-v1,59
+6daa519a-7de2-4131-85ac-b1b4018e5559,73b88e8d-2b25-427b-9045-24cd78bcfc64,,2025-09-08T02:21:33+00:00,pass,False,,data_pull,triage-agent-v1,201
+5132480a-731b-43bb-a168-e913809bc4be,06839f90-4c64-4ba9-b553-000ee1977894,,2025-09-19T17:07:33+00:00,warn,False,,escalation,decision-agent-v1,238
+f18c225e-9871-495d-9e87-0ab877d6225f,c73ee11d-97ae-438f-8b67-0ca396d9bd37,,2026-02-13T12:23:33+00:00,pass,False,,data_pull,triage-agent-v1,248
+27fd284a-1ed9-43f6-a8b3-16d6974cdfb2,e7d1e186-2afc-44c9-8f1a-8bd0568a4880,CR-014,2025-11-21T23:54:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1723
+efc81431-7efb-420d-bb9f-fdd1b703a7e9,73a61fe0-3d9a-47ff-a075-0e0210e6ccd0,CR-010,2025-10-09T09:55:33+00:00,pass,False,,compliance_check,resolution-agent-v1,4147
+a7dbc2bc-3185-4911-9068-2d73adc7b394,9e270736-c897-418d-9ea7-94a923b25b61,,2025-09-07T13:32:33+00:00,block,False,,escalation,decision-agent-v1,50
+3aa8b4c4-618c-4adc-97a6-c712650043f2,7e257751-9190-44ee-89ff-e9e35cf4b898,,2026-01-29T18:24:33+00:00,block,False,,resolution,decision-agent-v1,80
+7dd543c6-2b12-43af-806f-7ae43a87d98f,83dd6cd3-633c-4850-96da-0f4e5b438ca1,,2026-02-12T11:12:33+00:00,pass,False,,draft_generation,resolution-agent-v1,3975
+647b3ca9-2202-40ed-809e-020b81659f07,4f1bd73a-1d17-4ae4-bc9b-cd9b030dae3e,CR-014,2026-02-06T21:32:33+00:00,pass,False,,compliance_check,resolution-agent-v1,878
+e28f7f2d-022d-486d-89c3-e05075d63260,9a0693e3-9f4a-4cb7-8288-3db2cc7b96df,,2025-11-07T03:49:33+00:00,block,False,,escalation,decision-agent-v1,122
+af44bd82-d5d1-41c5-9238-c406faef9bb2,b5d0cf24-3697-46c8-803b-6b72c48a2aa5,,2025-12-25T18:29:33+00:00,pass,False,,classification,triage-agent-v1,125
+ccb9578d-8237-4a25-9473-e6131de2adae,8f0deeba-95c7-4362-a5cb-e89767134944,,2025-10-10T11:05:33+00:00,warn,False,,classification,triage-agent-v1,74
+c7031f6d-9efc-4811-a71a-1895f34e4689,83dd6cd3-633c-4850-96da-0f4e5b438ca1,,2025-11-07T15:37:33+00:00,warn,False,,resolution,decision-agent-v1,65
+3f775568-61cf-4b13-9c24-f1d5de2d53dc,16931a55-3c8d-4bf4-9d78-3fdca4e03e4f,,2025-12-17T19:02:33+00:00,warn,False,,data_pull,triage-agent-v1,226
+513962af-00b7-4bd8-8aeb-52fc952c5e9b,7b266084-5c10-470c-9a5b-e78620575216,,2025-09-16T03:30:33+00:00,pass,False,,classification,triage-agent-v1,197
+080381d5-c925-48fc-af37-58f11ecf38d7,05310929-88d2-4f7e-8daf-6cb3f0d85dd1,CR-015,2026-01-11T05:42:33+00:00,warn,False,,compliance_check,resolution-agent-v1,3197
+a7335eed-9e0f-4b59-be0c-dbcd9ebd4341,1120c1bd-9d58-4507-a19a-fba0f2009e22,CR-009,2025-09-27T02:11:33+00:00,pass,False,,compliance_check,resolution-agent-v1,3053
+777249d9-9570-46b3-80d4-0370fcc3d916,a1dcb211-6f0b-4d46-a02a-f7fa86b992d9,,2025-10-19T21:46:33+00:00,warn,False,,draft_generation,resolution-agent-v1,1097
+1ecb5baa-4aae-4161-affb-1cd84b8a2a88,b43b4e7a-5b7c-462a-bf36-50406b80788a,CR-003,2026-02-27T09:17:33+00:00,pass,False,,compliance_check,resolution-agent-v1,944
+b40dfc7e-ed85-4718-bb4a-3a14989236ac,1bad9d7e-61a9-4460-bd90-d3001b7db2b0,,2025-11-20T02:37:33+00:00,pass,False,,escalation,decision-agent-v1,185
+b15e3f31-0cd0-42b9-b665-ac2fa7fe0fbe,05b719c5-62f8-4b81-9a1a-02bde5317bf2,,2025-11-21T17:51:33+00:00,pass,False,,resolution,decision-agent-v1,217
+c25837a7-a23d-4049-b711-6d06dce89af7,cb1c56b8-05cc-4e3a-980d-55af612d85d8,CR-007,2025-10-01T10:07:33+00:00,warn,False,,compliance_check,resolution-agent-v1,2767
+ab28e9cf-069b-4ece-a7c0-290ac86ca5d9,0bdb9ffd-1edb-4c2a-abd8-2ff2c5ddde8a,,2025-09-21T22:14:33+00:00,warn,False,,resolution,decision-agent-v1,271
+da6b8dad-c22b-4848-b03c-b29909176cda,aa063ded-81fd-419b-b254-863fcfdd814c,,2026-01-29T07:02:33+00:00,pass,False,,data_pull,triage-agent-v1,222
+dc71dffd-d73d-44ee-baf7-d4d9839ebfa1,fefdbb13-f89d-4918-84bc-736bc90d26a2,CR-002,2025-09-23T09:46:33+00:00,pass,False,,compliance_check,resolution-agent-v1,2928
+79cea833-642e-4341-95cc-6ec647058357,08861ead-b817-4391-b28b-8fb4a0cf3f86,,2026-01-31T22:20:33+00:00,warn,False,,classification,triage-agent-v1,159
+a074f4e8-23dd-451a-91cb-9883805c1c77,ff3fb573-9994-4e30-aada-a7069187634b,,2026-02-05T10:05:33+00:00,pass,False,,classification,triage-agent-v1,261
+8cc611e5-15af-4e04-9a09-057b0a601f6e,06839f90-4c64-4ba9-b553-000ee1977894,CR-006,2025-10-30T18:20:33+00:00,pass,False,,compliance_check,resolution-agent-v1,3847
+e4a7c80f-8bda-4e21-9fd3-598b6f50e122,24d84ade-92b9-4cf4-bc5e-05cdf6474788,,2025-12-14T10:56:33+00:00,pass,False,,resolution,decision-agent-v1,197
+7238415d-2212-4d32-ad14-ab041a168e60,10796f6e-a498-4de8-a9ee-3aa5a40f3a4e,,2026-01-28T22:02:33+00:00,warn,False,,data_pull,triage-agent-v1,211
+e459a572-2e89-43a5-a0d3-5387ec31d4a0,65a2b66e-b0a4-4263-bf7a-9a5b220c7286,CR-007,2025-10-14T15:27:33+00:00,block,False,,compliance_check,resolution-agent-v1,3980
+a52f22e1-6d82-4c73-aa48-f213a68c28ec,0eb5c84c-33bf-46d2-837b-40301a885715,CR-008,2026-02-24T06:07:33+00:00,pass,False,,compliance_check,resolution-agent-v1,2570
+2c1f1d9a-7cef-4d2f-881d-4efa0adcd54f,91b43a42-778a-4d10-8f47-1e61022a02f1,,2026-02-20T01:55:33+00:00,pass,False,,resolution,decision-agent-v1,107
+d953115f-9c3d-4371-8f6e-1311981ad317,e7ab661a-44de-4d12-bdec-5b17be5e423b,,2026-01-08T04:13:33+00:00,warn,False,,classification,triage-agent-v1,108
+84eb4aff-6a58-473a-a3be-f585b996f420,24b8a044-2015-4af6-aa66-53a147015a22,,2025-10-26T00:48:33+00:00,pass,False,,classification,triage-agent-v1,124
+cbb70d0b-dd5c-4399-a205-a67ed615722a,a71a02be-2819-4589-86f7-0c87810a8288,,2026-02-16T01:47:33+00:00,warn,False,,draft_generation,resolution-agent-v1,971
+0f4b9276-8312-46f7-86a8-db5b897825c0,32f16230-70dc-4897-b603-52437a830a97,,2025-09-24T20:11:33+00:00,pass,False,,classification,triage-agent-v1,290
+3e8ffb1a-514e-4be9-8876-b40fbb221f7d,7258f950-8b50-44d3-b5b1-5ba15427802a,CR-002,2025-10-05T23:56:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1381
+c16df7c0-8511-4c00-9a03-408aad1e3038,06839f90-4c64-4ba9-b553-000ee1977894,,2025-12-05T06:35:33+00:00,warn,False,,escalation,decision-agent-v1,119
+d8964ffb-aa8b-4043-a807-bf2f82d5bfe9,90e41607-cd6e-447a-a250-6242a733d717,,2025-10-15T09:02:33+00:00,pass,False,,data_pull,triage-agent-v1,275
+7e9a9035-74c6-4483-8984-1748ca9832c6,2e31027e-e588-4118-b75b-a79b0be64d0a,,2026-01-20T18:39:33+00:00,pass,False,,classification,triage-agent-v1,99
+dd249e7a-6161-4104-a012-a0d2ea3017c6,f76f2ff3-cae6-4090-96ca-3773ad6521ef,,2025-12-07T07:26:33+00:00,block,False,,classification,triage-agent-v1,106
+ba9a8028-dd93-4708-9193-20e5ad3aa541,bc95fcfd-20b5-4188-93c7-2a33622c9e23,CR-006,2025-11-16T07:56:33+00:00,pass,False,,compliance_check,resolution-agent-v1,3053
+2181ac2c-cf2f-4db1-b8c9-64b3b14a2350,318e9ca7-4882-4a1a-b0fd-976a38791784,,2025-11-11T15:47:33+00:00,pass,False,,classification,triage-agent-v1,185
+2a8821c5-ec4c-4cd5-8e6f-55353b68cdb4,a56dec63-eb2a-4bdd-94d1-cb7115137023,,2025-11-20T03:16:33+00:00,pass,False,,classification,triage-agent-v1,296
+884a24e1-6d9f-4de0-8ab0-e1d3a79c53ab,106de681-95e9-42d7-a18d-b6e50b83b544,,2026-01-14T07:31:33+00:00,pass,False,,resolution,decision-agent-v1,114
+e625f4a0-5eaa-4a6e-9f22-6151da1af380,0665be7e-d1d2-410b-acbb-7c0c87e01093,,2025-10-07T08:53:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1177
+39b2e668-9d8d-4eb5-90ad-0b184a9fbcc7,1120c1bd-9d58-4507-a19a-fba0f2009e22,,2026-02-12T03:57:33+00:00,pass,False,,classification,triage-agent-v1,152
+7b4970b1-1e40-4cfe-84e1-31ac30d751d3,917f3037-5cd0-4851-9701-2e0ae888af85,,2025-10-16T00:18:33+00:00,warn,False,,escalation,decision-agent-v1,64
+2d990e64-699b-4db5-8ee7-50441a72f619,36001e34-1058-49b2-84e2-f72fc2eb15e3,CR-005,2025-09-06T17:16:33+00:00,pass,False,,compliance_check,resolution-agent-v1,4166
+5837413c-0ce4-4a35-9572-d759a6fc95c9,bb1460bb-38ff-411d-b119-cdcb32cc7841,CR-009,2025-12-15T10:53:33+00:00,pass,False,,compliance_check,resolution-agent-v1,4285
+d8515419-cfcf-43ca-987c-f01c3431e08c,b1aceea0-0852-4fd7-bc52-8f40782377fa,,2025-10-19T11:02:33+00:00,pass,False,,classification,triage-agent-v1,203
+1c3cffa5-ddd4-423a-bec7-a92c29e2dbd2,6c0375f9-72d6-4d13-b4a9-dabbed4e1a36,,2025-12-20T17:12:33+00:00,pass,False,,draft_generation,resolution-agent-v1,3023
+322bbcae-8252-4670-bebe-fb87066b6eef,1807a752-9703-4f6b-b5ec-029b684ece2b,,2026-01-28T05:17:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2160
+514c07f8-235b-4525-bb9b-06f1d588c5d2,1a2b4e6f-f03f-440e-bb7b-00b21bd071f0,,2026-02-12T01:35:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1994
+ce7c32e5-e19a-458c-8ee4-b24b50616e93,2e096e88-5be0-4eb7-8f30-c8402fc59f7e,,2025-09-29T19:12:33+00:00,pass,False,,classification,triage-agent-v1,57
+e5d62e8a-9810-4afe-bb29-783f8008a50b,b5d0cf24-3697-46c8-803b-6b72c48a2aa5,CR-010,2026-01-17T16:27:33+00:00,warn,False,,compliance_check,resolution-agent-v1,2181
+6623f67c-bc8b-43f4-a610-32ad568e93d6,bad76f02-54ce-4382-b798-420bc3716aef,,2025-10-14T16:02:33+00:00,pass,False,,data_pull,triage-agent-v1,67
+f3731f5e-c56e-4fe8-911a-b42864e4d3e0,8b07bc67-dfaa-43b1-aab9-c1bb3259151a,,2025-11-06T17:28:33+00:00,pass,False,,data_pull,triage-agent-v1,77
+4aeaf813-6422-46ac-8451-062b58e957fa,7e257751-9190-44ee-89ff-e9e35cf4b898,,2026-01-29T12:32:33+00:00,block,False,,data_pull,triage-agent-v1,209
+a9661b02-4528-4c66-8a41-25e69645b3b0,61b51d5d-a0fc-4ecc-a88c-b21a7ad9980e,,2025-11-03T20:06:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1254
+19348a0b-5ff9-425f-85b6-cf4fc1b734a6,1807a752-9703-4f6b-b5ec-029b684ece2b,,2025-10-27T13:12:33+00:00,pass,False,,data_pull,triage-agent-v1,82
+7e52fb72-b906-4c8c-a02d-e20df25525fe,b9abe0e7-70f0-40be-90e6-d59c847d6118,,2025-12-13T21:51:33+00:00,pass,False,,escalation,decision-agent-v1,218
+c2e396da-10ae-4006-989a-3ff97e26968d,79288f52-7745-4bf6-adff-21e410487f80,,2026-02-26T03:04:33+00:00,pass,False,,resolution,decision-agent-v1,290
+a45a1339-c3b7-4c7d-8b8b-a72e5056f12e,4abd0a0f-2c31-490c-a8cb-c6d16286a70e,,2025-12-28T16:52:33+00:00,warn,False,,resolution,decision-agent-v1,115
+1ce3e7bd-38dc-4e67-90c2-93445e09cb11,917f3037-5cd0-4851-9701-2e0ae888af85,,2025-12-02T06:59:33+00:00,pass,False,,draft_generation,resolution-agent-v1,4000
+76c0058a-28a5-45ca-adfd-3ab30a1fe52f,9fb98b16-ae2c-4ce6-9031-1727e333f3b3,,2026-02-16T13:39:33+00:00,warn,False,,data_pull,triage-agent-v1,198
+ae85870f-4d4c-4b09-9afa-57a3d7cec268,08b2db97-2ac3-4f75-b8e4-b1f5a805973b,CR-011,2026-01-30T13:24:33+00:00,pass,False,,compliance_check,resolution-agent-v1,2100
+d8e7c585-7cc7-4b6c-8bd4-efbe698aa305,85b78f22-cc58-40f9-ac92-705c48cfab2c,,2025-09-27T17:33:33+00:00,pass,False,,classification,triage-agent-v1,114
+ea624e6a-edca-4764-a2bd-abc3026bc968,61b51d5d-a0fc-4ecc-a88c-b21a7ad9980e,,2025-12-11T11:32:33+00:00,pass,False,,draft_generation,resolution-agent-v1,4268
+82cdc90e-8b12-4a0f-a636-b509f0332c88,9ea6f83e-4374-4383-a3fb-fed7104e5380,,2025-12-21T05:05:33+00:00,pass,False,,classification,triage-agent-v1,106
+2a7f4e9b-82d4-4610-861c-1187ecc00e18,2a2291fd-658f-4dcb-bd5b-dbcb84a0643b,,2025-11-14T01:24:33+00:00,warn,False,,data_pull,triage-agent-v1,103
+9ce11ef8-750a-42b9-9f30-ed2c3b4a4801,2a2291fd-658f-4dcb-bd5b-dbcb84a0643b,,2025-12-31T21:13:33+00:00,warn,False,,draft_generation,resolution-agent-v1,2872
+271bcadc-b720-4e9f-bead-acd26e55968b,05310929-88d2-4f7e-8daf-6cb3f0d85dd1,,2026-02-25T12:24:33+00:00,pass,False,,data_pull,triage-agent-v1,207
+fc4a840d-7f52-4e44-9ba3-ee2124460ff9,502260e4-3d83-4b28-89ae-08cda08faed5,,2026-02-02T09:02:33+00:00,pass,False,,classification,triage-agent-v1,121
+fb812844-5400-4f94-97ef-d6410ebc25a5,466afd1a-45a7-48cd-8034-2bb66b56f951,,2025-12-09T12:04:33+00:00,pass,False,,classification,triage-agent-v1,129
+2d2174ea-43d6-4a4c-80c3-c51c56618b64,cbe00c49-b30c-42f3-b55d-34b187a73f38,,2026-03-02T17:06:33+00:00,pass,False,,data_pull,triage-agent-v1,73
+3cc6cb01-59b6-42ed-b161-738b63be8a89,76137173-6eff-46f6-94f0-cb37de447bd8,,2026-01-04T01:32:33+00:00,warn,False,,data_pull,triage-agent-v1,144
+b4e86bc4-5660-4107-af01-9452aed85ec6,b1aceea0-0852-4fd7-bc52-8f40782377fa,,2025-09-17T01:28:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1257
+d0919ae3-45d6-444e-8bd7-7418196109c6,0977196f-78a3-4a55-8365-7e1a2d74e45c,,2025-09-17T02:55:33+00:00,warn,False,,draft_generation,resolution-agent-v1,2054
+26028304-1551-455f-9b60-7c8b60792da3,5e3d6727-cd42-44b7-990b-6381e1d5e9af,,2025-10-02T22:36:33+00:00,pass,False,,data_pull,triage-agent-v1,203
+d0b87571-50de-47a0-b423-abf3ca840086,12017983-945e-45c5-b2ce-103b89027562,,2025-11-26T01:14:33+00:00,pass,False,,data_pull,triage-agent-v1,51
+00ff5df9-c091-40a9-9643-ac5a4352df53,7dcbe362-41e3-4dbe-99b3-c72b8a3e4ec5,,2026-03-03T09:12:33+00:00,pass,False,,classification,triage-agent-v1,202
+07dbdebc-ca32-4dbd-bc1d-b4f1903aadb2,08b2db97-2ac3-4f75-b8e4-b1f5a805973b,,2025-11-04T12:56:33+00:00,pass,False,,draft_generation,resolution-agent-v1,3549
+3c06e091-610f-43de-955d-79c23d2dba8d,912c95b2-0c1e-445e-bd7d-a6f334984963,,2025-11-09T05:28:33+00:00,warn,False,,data_pull,triage-agent-v1,140
+b3d16122-e9db-4566-a487-c67626714323,0bdb9ffd-1edb-4c2a-abd8-2ff2c5ddde8a,,2025-11-23T15:28:33+00:00,warn,False,,data_pull,triage-agent-v1,198
+4181a568-9e7b-4f6b-b8dc-1a7d97aae29e,85644abe-9047-49d6-8208-6ce014c576f5,,2026-02-26T01:16:33+00:00,pass,False,,classification,triage-agent-v1,208
+f2ad2ac3-1710-488b-b225-c5168d27e7e3,bad76f02-54ce-4382-b798-420bc3716aef,,2025-11-17T22:15:33+00:00,block,False,,data_pull,triage-agent-v1,129
+e029d8f8-5352-4604-a768-d9e12c581ad7,6ff80f44-ac8d-41b7-8e76-7502898c61ea,,2025-12-23T18:47:33+00:00,pass,False,,data_pull,triage-agent-v1,139
+a38dfe0c-c2f4-4902-8010-7f2b2116c453,816a8c61-5a3c-4206-a688-f3214cde9568,,2026-01-29T15:27:33+00:00,warn,False,,draft_generation,resolution-agent-v1,2642
+ef2aca40-0555-493a-9a8d-82e81d642737,7258f950-8b50-44d3-b5b1-5ba15427802a,,2025-10-04T11:19:33+00:00,pass,False,,classification,triage-agent-v1,260
+256c1ede-f791-4e31-9404-cc7d12b0d921,64e2b14c-0ac4-4652-8d93-d35f9df58e44,CR-001,2025-09-29T20:06:33+00:00,pass,False,,compliance_check,resolution-agent-v1,4363
+b3723247-30c6-4899-9ea0-0ec15e70f08a,bd44a373-1019-4938-adc7-bde958953731,,2025-09-28T04:07:33+00:00,pass,False,,data_pull,triage-agent-v1,72
+d7042f0d-1209-4b5d-b15b-4fb930fd31b7,aabfbcfb-8498-4594-8200-a66084d01b2d,,2025-10-11T15:26:33+00:00,block,False,,resolution,decision-agent-v1,275
+49de9656-5553-4def-b8fc-0ab76369b105,65a2b66e-b0a4-4263-bf7a-9a5b220c7286,,2026-02-03T06:20:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2716
+473bdac4-684f-4e52-9c4b-9845f35c3170,65a2b66e-b0a4-4263-bf7a-9a5b220c7286,CR-015,2025-11-08T17:12:33+00:00,pass,False,,compliance_check,resolution-agent-v1,4435
+948c6c4e-b5c1-4d51-89e7-0f3f9888eafb,cb0f4855-5eef-4f1c-9dee-f52a09c07527,,2025-11-26T21:10:33+00:00,pass,False,,classification,triage-agent-v1,66
+9db72227-71a1-46bd-944f-f39d032584c6,056a222f-3369-49ee-af4d-9cff055f3f09,,2026-01-29T20:01:33+00:00,pass,False,,classification,triage-agent-v1,67
+93fbacd5-6dee-47fd-b8be-cf3ad0d18cdd,c0db797f-d7c1-4304-be30-4967325ca041,,2026-02-25T07:20:33+00:00,pass,False,,data_pull,triage-agent-v1,113
+c8993cfc-d296-409c-9c33-dc044a670913,d6f56c44-5f36-4c70-854b-a21674d58e9e,,2025-11-07T05:15:33+00:00,pass,False,,data_pull,triage-agent-v1,198
+e6a688fd-4d7f-4c42-92f9-33f98e1bfd10,99d3b0ce-deea-489f-9955-4945a6e9d300,,2025-11-15T04:21:33+00:00,pass,False,,classification,triage-agent-v1,201
+0256dd47-d722-4543-af76-8aee3e4a5e09,38355d56-3a92-4d16-aafa-fc53cf92e697,,2025-10-27T17:55:33+00:00,pass,False,,resolution,decision-agent-v1,97
+7dd272dc-3ba5-4e70-9b6c-3c87202610f2,b1050bce-392f-464c-a620-f48a7632a711,CR-014,2025-10-28T01:48:33+00:00,pass,False,,compliance_check,resolution-agent-v1,2591
+9f0a11fb-a16f-49e3-ada3-2fda7c5d3afd,5e2ef0f0-214a-4759-be29-99406f35db2a,,2025-11-04T17:10:33+00:00,pass,False,,draft_generation,resolution-agent-v1,3973
+a40894c4-be3a-4032-b6a6-a40068030ec7,f0f62511-8381-4ecb-9bd5-19381a575e30,CR-002,2026-01-25T00:32:33+00:00,pass,False,,compliance_check,resolution-agent-v1,3112
+ac400e5a-f6fd-4cde-b53c-2891588e17de,15e3b43a-1c5e-43dc-8b31-6a5cdbe9c617,,2025-10-13T05:38:33+00:00,pass,False,,data_pull,triage-agent-v1,148
+210607ad-341d-46eb-8538-042c54d9b44a,0828b756-2225-4da3-a0e6-ce8a8ce13b15,,2026-01-24T08:40:33+00:00,pass,False,,data_pull,triage-agent-v1,199
+9b3aaab5-44e8-4a06-a4c4-453f3d6ac2c5,f29d088a-ce71-493e-8fb8-9457427630b8,,2025-09-13T14:20:33+00:00,warn,False,,data_pull,triage-agent-v1,143
+029f317e-4cb6-4446-a452-572d34c85d33,502260e4-3d83-4b28-89ae-08cda08faed5,,2025-10-17T19:12:33+00:00,warn,False,,resolution,decision-agent-v1,255
+eec2c7d7-dd4f-4220-b7cc-025caf736e1c,2d4d9d8b-3cd5-4b2e-8210-eddcc4162711,,2026-02-06T00:31:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1482
+ccf90fc6-38bf-4775-8f55-9046f0467a80,43273e57-3907-4bb2-a288-5c12aa84a57c,,2025-10-06T23:14:33+00:00,warn,False,,data_pull,triage-agent-v1,92
+81427e0c-0674-460c-85b8-91f1b1f980b4,83dd6cd3-633c-4850-96da-0f4e5b438ca1,,2025-09-18T18:05:33+00:00,pass,False,,data_pull,triage-agent-v1,64
+3ea40e38-3034-4421-a09a-e66eef7e5516,912c95b2-0c1e-445e-bd7d-a6f334984963,,2025-12-24T06:23:33+00:00,pass,False,,escalation,decision-agent-v1,111
+9a92d2a3-1371-4008-99b4-d721d0d9385a,12017983-945e-45c5-b2ce-103b89027562,,2026-02-05T02:56:33+00:00,pass,False,,data_pull,triage-agent-v1,71
+6add5213-69f1-4cda-9b28-bbc93479d687,cbe00c49-b30c-42f3-b55d-34b187a73f38,,2026-01-05T13:25:33+00:00,pass,False,,resolution,decision-agent-v1,292
+51878a4a-c29c-4626-a0ec-d1faac9080b5,1f30c6a4-c3af-4d76-afe2-4e27980278bf,,2025-12-08T21:46:33+00:00,pass,False,,escalation,decision-agent-v1,209
+59f0b500-17f5-4c24-8259-14decfa56d67,5dd86a7a-391e-4e58-bfab-39ab1853801c,,2025-11-01T21:23:33+00:00,pass,False,,escalation,decision-agent-v1,109
+de952b7e-c45b-4d1a-8888-41b5f61b1df7,cfbda653-48a5-4559-9d2b-47566c73ce05,,2025-09-08T08:08:33+00:00,block,False,,data_pull,triage-agent-v1,52
+3a39e9e1-0a6d-47f2-b796-af487c767543,a7f3292f-b5a5-4240-89cd-df466bef7fc4,,2025-10-13T14:46:33+00:00,pass,False,,resolution,decision-agent-v1,62
+4f258e2f-9d46-458f-a9d7-e1d90d97febc,344740f6-40db-47af-8abe-b8714d710791,CR-001,2025-10-15T22:25:33+00:00,block,False,,compliance_check,resolution-agent-v1,2849
+11c8de1e-d6e8-4380-9146-520b6039f5d1,8beef5b6-5e37-405d-b19b-9e573c2a798e,CR-005,2025-12-30T05:04:33+00:00,pass,False,,compliance_check,resolution-agent-v1,2342
+9ad7a9a4-e590-4577-b513-f867bf48959b,08b2db97-2ac3-4f75-b8e4-b1f5a805973b,,2026-01-26T06:41:33+00:00,warn,False,,draft_generation,resolution-agent-v1,3811
+a94bcfe8-20e3-4e00-88a8-04a3c2a8d969,aca78843-746e-48d9-af63-8654fda6cb07,CR-012,2026-01-11T11:15:33+00:00,pass,False,,compliance_check,resolution-agent-v1,2159
+986c94b8-4974-43c1-805c-b0e1cb54d055,af19e2f3-7b13-4e46-b882-2a7bbf194534,,2025-12-05T16:41:33+00:00,pass,False,,resolution,decision-agent-v1,277
+10dbb73d-9801-4cc4-88d6-77d7f18507c5,998c57e4-0e4f-4fa4-809f-654e3c068ba9,,2025-12-25T05:09:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1972
+c8d7ff10-87f6-4750-9c8b-ad035da7fea6,143c2887-b9ee-48de-8b8c-61a6ae63adb8,,2025-10-12T21:07:33+00:00,pass,False,,resolution,decision-agent-v1,68
+92afa5b4-1156-4cc2-b3d6-21accfecdf9e,99d3b0ce-deea-489f-9955-4945a6e9d300,,2025-12-24T23:24:33+00:00,pass,False,,data_pull,triage-agent-v1,140
+a48888a3-712d-4c6b-832c-e60634bf24d7,22e60abe-4f04-42c8-9af3-90e08415787c,CR-013,2025-10-02T02:08:33+00:00,warn,False,,compliance_check,resolution-agent-v1,1232
+085fda35-2e75-456a-8945-f2dc225e776d,4b8e2fb6-a379-4b69-a712-6d57089a460a,,2026-02-07T17:57:33+00:00,pass,False,,data_pull,triage-agent-v1,77
+f46f8a0a-2a1b-4576-9de5-815dfdaa7923,57794a58-6870-4a7b-978d-ff85fad6398e,CR-005,2026-02-12T10:41:33+00:00,warn,False,,compliance_check,resolution-agent-v1,1640
+fb186cde-b821-480b-8a39-82c453d59624,d59c9e7f-97d8-4ea4-8b73-ca69cf7465ba,,2025-10-03T10:14:33+00:00,warn,False,,resolution,decision-agent-v1,276
+e4da93a0-2bba-4cee-8321-e31b5139e566,6bb423e4-2439-4abf-a204-24e9851dfa9e,,2025-12-23T05:57:33+00:00,warn,False,,escalation,decision-agent-v1,91
+a659c600-c26f-4153-89c3-d817ba9d2f38,40a66ad0-f842-46b3-804a-94240ebb898a,,2025-12-07T16:27:33+00:00,pass,False,,draft_generation,resolution-agent-v1,4457
+efed967b-9b03-4cb7-bb6b-75da46e7fcb6,d6f56c44-5f36-4c70-854b-a21674d58e9e,,2026-01-27T13:36:33+00:00,block,False,,escalation,decision-agent-v1,157
+bcbf9df2-31ca-473d-a967-ead98520afef,61421d5c-707d-46b7-a418-faa5f1306fb4,,2026-02-02T07:13:33+00:00,block,False,,data_pull,triage-agent-v1,116
+fe4370f6-1d4d-4b65-84f5-cc7cac8f86da,05b719c5-62f8-4b81-9a1a-02bde5317bf2,,2026-02-23T12:30:33+00:00,pass,False,,escalation,decision-agent-v1,215
+aa7cf4e2-7f64-4514-9602-8e59b4742737,be6dc447-36d1-4970-a9b0-c4c17f510e15,,2025-10-08T21:15:33+00:00,pass,False,,classification,triage-agent-v1,89
+2e5d099e-6152-4254-b1a3-70859ce2834c,466afd1a-45a7-48cd-8034-2bb66b56f951,,2026-01-19T02:37:33+00:00,pass,False,,draft_generation,resolution-agent-v1,3543
+8aa9a43b-7ca0-4fdb-b939-78bea132165a,9c8cf56a-0e38-4cdc-bd1f-b2f18ec48113,,2025-09-28T17:49:33+00:00,block,False,,escalation,decision-agent-v1,137
+43520a97-a839-46da-ba46-5da9325d310e,728bd44b-9815-45e2-8b41-36563473f3ab,,2025-09-08T14:51:33+00:00,pass,False,,classification,triage-agent-v1,255
+5b352bb4-2084-4cb6-bef7-9a68aa68b30f,808b08f6-e4a4-44f9-898e-44ac62c79cce,,2026-01-02T07:34:33+00:00,pass,False,,data_pull,triage-agent-v1,77
+243679b5-1841-465d-b1ed-5321310c00a3,aff77518-6c0d-4c93-8eec-506f7101a039,,2025-10-31T02:20:33+00:00,block,False,,escalation,decision-agent-v1,96
+c4703a8b-796a-48d3-b555-6b92fe17b2de,0e4f8192-4e61-42a3-aa82-02cdb0ccfcb1,,2025-11-11T03:32:33+00:00,warn,False,,resolution,decision-agent-v1,220
+fe1e9490-9684-4678-bc29-117b08543094,77edf41a-7046-495e-8e5b-e7a077e8f3fe,,2026-02-16T23:00:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2118
+0f4952ef-7945-42f6-bff1-2932d686c6ad,130fc375-5409-472e-94a9-73fabc533115,,2025-10-01T23:47:33+00:00,pass,False,,draft_generation,resolution-agent-v1,2536
+9549a7fa-b576-4609-b897-1e41ba42ba05,028767dc-67c7-4c8f-b986-42ceb139a619,,2025-10-19T21:02:33+00:00,warn,False,,draft_generation,resolution-agent-v1,951
+ee5973af-a9c5-447f-8e0e-b3d1e003cb60,6048d734-8ca6-439e-ba01-ce6ca3dea440,,2025-10-21T22:23:33+00:00,pass,False,,data_pull,triage-agent-v1,170
+f296f79f-3fcc-4bd5-945f-0583d7d5fdf1,502260e4-3d83-4b28-89ae-08cda08faed5,,2026-02-21T18:31:33+00:00,pass,False,,draft_generation,resolution-agent-v1,3645
+1601684a-1a35-44ab-b42e-67bbd5374730,591f4d74-20de-451e-b2d0-4a19ab6d32f8,,2026-02-02T07:55:33+00:00,pass,False,,classification,triage-agent-v1,62
+20a536d6-1fe3-41a8-b5de-e4e6df87bf66,cae2ed9a-762c-4647-869d-32e62906d031,,2025-09-15T21:09:33+00:00,pass,False,,classification,triage-agent-v1,183
+ee3c429c-987c-44eb-8989-e1e842aafc7c,32f16230-70dc-4897-b603-52437a830a97,CR-003,2025-10-13T17:59:33+00:00,pass,False,,compliance_check,resolution-agent-v1,4405
+2a3f80aa-6bd8-4785-b9af-a2a879a6f0a9,d3114416-08b1-46bb-87aa-fd7a4e77521b,,2026-01-07T16:03:33+00:00,pass,False,,data_pull,triage-agent-v1,267
+6553a8a3-ae58-4771-8223-5a7f6e8443aa,91b43a42-778a-4d10-8f47-1e61022a02f1,,2025-10-16T02:17:33+00:00,pass,False,,data_pull,triage-agent-v1,215
+cd975652-b025-4fbd-818b-8adb42baebc3,9fb98b16-ae2c-4ce6-9031-1727e333f3b3,,2025-09-06T09:50:33+00:00,pass,False,,data_pull,triage-agent-v1,171
+3fd0b51b-cc27-4b3d-9d80-9ff3c764cd11,502260e4-3d83-4b28-89ae-08cda08faed5,,2025-11-28T16:11:33+00:00,pass,False,,draft_generation,resolution-agent-v1,1666
+587ee8d6-40c7-48fc-9ecd-716edbfb992d,0977196f-78a3-4a55-8365-7e1a2d74e45c,,2025-09-24T23:28:33+00:00,pass,False,,resolution,decision-agent-v1,243
+2d84b037-48fb-4f68-89f7-373a4b95692f,58353586-b369-4a17-9f90-f85e12fed4a0,,2025-11-23T05:04:33+00:00,pass,False,,resolution,decision-agent-v1,87
+93a64dbf-1456-4683-ae90-7ffa3aa2b3d5,0977196f-78a3-4a55-8365-7e1a2d74e45c,,2025-10-26T09:13:33+00:00,block,False,,draft_generation,resolution-agent-v1,2860
+318ac155-ba3c-4924-b5cd-e6756ba613de,64e2b14c-0ac4-4652-8d93-d35f9df58e44,CR-006,2025-12-11T06:36:33+00:00,pass,False,,compliance_check,resolution-agent-v1,3729
+c2bbf9fb-91f0-400b-9a1a-303280050305,e7d1e186-2afc-44c9-8f1a-8bd0568a4880,,2025-12-12T13:09:33+00:00,pass,False,,classification,triage-agent-v1,198
+ceedde2e-8003-44d0-abb3-d4e0b3eea226,75b173ba-9448-4403-afe2-c65cb73aff4c,,2025-12-24T22:02:33+00:00,block,False,,classification,triage-agent-v1,98
+20920ef4-254b-48ad-a144-8acc42ac2763,b1050bce-392f-464c-a620-f48a7632a711,,2026-01-23T02:35:33+00:00,pass,False,,data_pull,triage-agent-v1,213
+8f7851de-5012-418d-b37c-e1ee15d3e667,4b8e2fb6-a379-4b69-a712-6d57089a460a,,2026-02-06T23:55:33+00:00,pass,False,,escalation,decision-agent-v1,64
+e76e2424-8f1b-415b-90c1-e1ba253cb053,5e3d6727-cd42-44b7-990b-6381e1d5e9af,,2025-12-10T20:25:33+00:00,pass,False,,data_pull,triage-agent-v1,212
+783456c4-fdba-4895-8a9b-090ad985dd6d,09b4b943-6c69-4075-80fe-b42ab6edf6ea,CR-002,2025-11-27T04:06:33+00:00,pass,False,,compliance_check,resolution-agent-v1,1586
+ae5ac652-6e7a-4e35-bda3-e405cc31c56c,01b02cf3-f122-4382-8f52-d0ef6039aea3,,2026-02-25T12:45:33+00:00,pass,False,,data_pull,triage-agent-v1,141
+c33d1364-736f-4216-aa0f-3cac03a3d5be,8beef5b6-5e37-405d-b19b-9e573c2a798e,,2026-02-04T21:48:33+00:00,pass,False,,classification,triage-agent-v1,273
+e9820522-beaa-45ef-a8d5-c3bb72dade58,9ea6f83e-4374-4383-a3fb-fed7104e5380,,2025-10-25T09:45:33+00:00,pass,False,,resolution,decision-agent-v1,161
+be461998-8c2f-4271-be50-8aa384da130c,ef4a28b1-ce85-454f-bc62-ac54e86a8237,,2025-11-26T21:15:33+00:00,pass,False,,classification,triage-agent-v1,160
+467e4151-4444-4722-bb61-d36b95e517a2,fefdbb13-f89d-4918-84bc-736bc90d26a2,,2025-11-08T10:05:33+00:00,pass,False,,resolution,decision-agent-v1,204
+67c4da65-1936-4be3-9db5-248244f27a59,a1dcb211-6f0b-4d46-a02a-f7fa86b992d9,,2026-02-20T10:57:33+00:00,pass,False,,classification,triage-agent-v1,299
+a00b5d96-9415-4a3d-b954-d93b1c4d4601,f4c23f90-bc13-430b-8ab8-71b861ef4277,,2025-11-29T08:33:33+00:00,warn,False,,resolution,decision-agent-v1,220
+3152108b-d9ed-46a2-a664-3d8f03f2b235,7a424418-6da2-40af-8d5f-58d5ca25b629,,2026-02-19T07:31:33+00:00,warn,False,,resolution,decision-agent-v1,248

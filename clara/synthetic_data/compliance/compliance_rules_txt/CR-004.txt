@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-004
+Name: High Risk Customer Review Required
+Category: escalation_trigger
+Severity: block
+Applies To: all
+
+Description: Customers with risk score above 0.85 require human review before any automated resolution.
+
+Trigger Condition: Customer risk_score field is greater than 0.85
+
+Remediation: Route complaint to human agent for manual review and resolution

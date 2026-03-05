@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-013
+Name: Transaction Evidence Required
+Category: communication_standard
+Severity: info
+Applies To: letter
+
+Description: Billing dispute resolutions should reference specific transaction details as evidence.
+
+Trigger Condition: Complaint category is billing_dispute but resolution letter lacks transaction reference numbers or dates
+
+Remediation: Include transaction ID, date, amount, and merchant name in resolution explanation

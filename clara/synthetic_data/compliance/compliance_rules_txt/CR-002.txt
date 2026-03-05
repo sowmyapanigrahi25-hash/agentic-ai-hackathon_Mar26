@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-002
+Name: SLA Breach Escalation Trigger
+Category: escalation_trigger
+Severity: block
+Applies To: complaint
+
+Description: Complaints that remain unresolved for more than 72 hours must be escalated to senior support team.
+
+Trigger Condition: Time elapsed between complaint submission and current time exceeds 72 hours
+
+Remediation: Immediately escalate complaint to senior support team with priority flag

@@ -1,0 +1,152 @@
+[
+  {
+    "rule_id": "CR-001",
+    "rule_name": "High Value Refund Approval Required",
+    "description": "Any refund commitment exceeding $500 must receive manager approval before being communicated to the customer.",
+    "category": "refund_policy",
+    "severity": "block",
+    "applies_to": "letter",
+    "check_logic_hint": "Resolution letter contains refund language with amount above $500 without manager approval flag",
+    "remediation": "Escalate to manager for approval before sending resolution letter to customer"
+  },
+  {
+    "rule_id": "CR-002",
+    "rule_name": "SLA Breach Escalation Trigger",
+    "description": "Complaints that remain unresolved for more than 72 hours must be escalated to senior support team.",
+    "category": "escalation_trigger",
+    "severity": "block",
+    "applies_to": "complaint",
+    "check_logic_hint": "Time elapsed between complaint submission and current time exceeds 72 hours",
+    "remediation": "Immediately escalate complaint to senior support team with priority flag"
+  },
+  {
+    "rule_id": "CR-003",
+    "rule_name": "No Admission of Liability",
+    "description": "Resolution letters must not contain language that admits fault, liability, or responsibility for customer losses.",
+    "category": "communication_standard",
+    "severity": "block",
+    "applies_to": "letter",
+    "check_logic_hint": "Letter contains phrases like \"our fault\", \"we are responsible\", \"our mistake\", \"we caused\", or similar liability admissions",
+    "remediation": "Rewrite letter to acknowledge issue without admitting liability, use neutral language"
+  },
+  {
+    "rule_id": "CR-004",
+    "rule_name": "High Risk Customer Review Required",
+    "description": "Customers with risk score above 0.85 require human review before any automated resolution.",
+    "category": "escalation_trigger",
+    "severity": "block",
+    "applies_to": "all",
+    "check_logic_hint": "Customer risk_score field is greater than 0.85",
+    "remediation": "Route complaint to human agent for manual review and resolution"
+  },
+  {
+    "rule_id": "CR-005",
+    "rule_name": "Fraud Routing Protocol",
+    "description": "Fraud category complaints must be routed to specialized fraud investigation team, not generic resolution.",
+    "category": "fraud_protocol",
+    "severity": "block",
+    "applies_to": "complaint",
+    "check_logic_hint": "Complaint category is \"fraud\" but assigned to generic resolution agent",
+    "remediation": "Immediately reassign to fraud investigation team queue"
+  },
+  {
+    "rule_id": "CR-006",
+    "rule_name": "PII Protection in Audit Logs",
+    "description": "Customer personally identifiable information must not appear in audit logs or system traces.",
+    "category": "data_privacy",
+    "severity": "block",
+    "applies_to": "all",
+    "check_logic_hint": "Audit log entry contains email addresses, phone numbers, account numbers, or full names",
+    "remediation": "Redact PII from logs and alert security team for log sanitization"
+  },
+  {
+    "rule_id": "CR-007",
+    "rule_name": "Professional Tone Standard",
+    "description": "All customer communications must maintain professional, empathetic tone without informal language.",
+    "category": "communication_standard",
+    "severity": "warn",
+    "applies_to": "letter",
+    "check_logic_hint": "Letter contains slang, abbreviations, emojis, or overly casual language",
+    "remediation": "Revise letter to use formal business communication standards"
+  },
+  {
+    "rule_id": "CR-008",
+    "rule_name": "Duplicate Complaint Detection",
+    "description": "System must flag potential duplicate complaints from same customer within 48 hours.",
+    "category": "escalation_trigger",
+    "severity": "warn",
+    "applies_to": "complaint",
+    "check_logic_hint": "Same customer has submitted complaint with similar text or category within last 48 hours",
+    "remediation": "Merge with existing complaint or flag for agent review to avoid duplicate work"
+  },
+  {
+    "rule_id": "CR-009",
+    "rule_name": "Response Time SLA Warning",
+    "description": "Complaints approaching 60 hours without resolution should trigger warning notification.",
+    "category": "escalation_trigger",
+    "severity": "warn",
+    "applies_to": "complaint",
+    "check_logic_hint": "Time elapsed between complaint submission and current time is between 60 and 72 hours",
+    "remediation": "Send notification to supervisor and prioritize complaint in queue"
+  },
+  {
+    "rule_id": "CR-010",
+    "rule_name": "Refund Confirmation Format",
+    "description": "Refund commitments must include specific amount, timeline, and method in resolution letter.",
+    "category": "refund_policy",
+    "severity": "warn",
+    "applies_to": "letter",
+    "check_logic_hint": "Letter mentions refund but missing amount, processing timeline, or refund method details",
+    "remediation": "Add complete refund details including dollar amount, 5-7 business day timeline, and original payment method"
+  },
+  {
+    "rule_id": "CR-011",
+    "rule_name": "Letter Sign-off Requirements",
+    "description": "All resolution letters must include proper closing with team name, company name, and case reference.",
+    "category": "communication_standard",
+    "severity": "warn",
+    "applies_to": "letter",
+    "check_logic_hint": "Letter missing closing signature line with team name, company name, or case reference number",
+    "remediation": "Add standard sign-off: \"Sincerely, [Team Name] | [Company Name] | Case Ref: [complaint_id]\""
+  },
+  {
+    "rule_id": "CR-012",
+    "rule_name": "First Response Time Standard",
+    "description": "Initial acknowledgment must be sent to customer within 24 hours of complaint submission.",
+    "category": "communication_standard",
+    "severity": "info",
+    "applies_to": "complaint",
+    "check_logic_hint": "More than 24 hours elapsed since complaint submission without any customer communication",
+    "remediation": "Send immediate acknowledgment email to customer confirming receipt and expected timeline"
+  },
+  {
+    "rule_id": "CR-013",
+    "rule_name": "Transaction Evidence Required",
+    "description": "Billing dispute resolutions should reference specific transaction details as evidence.",
+    "category": "communication_standard",
+    "severity": "info",
+    "applies_to": "letter",
+    "check_logic_hint": "Complaint category is billing_dispute but resolution letter lacks transaction reference numbers or dates",
+    "remediation": "Include transaction ID, date, amount, and merchant name in resolution explanation"
+  },
+  {
+    "rule_id": "CR-014",
+    "rule_name": "Escalation Reason Documentation",
+    "description": "When escalating to human agent, system must provide clear reason and context summary.",
+    "category": "escalation_trigger",
+    "severity": "info",
+    "applies_to": "all",
+    "check_logic_hint": "Complaint escalated but escalation_reason field is empty or generic",
+    "remediation": "Populate escalation_reason with specific trigger and relevant context for human agent"
+  },
+  {
+    "rule_id": "CR-015",
+    "rule_name": "Customer Sentiment Tracking",
+    "description": "Very negative sentiment complaints should be flagged for quality assurance review.",
+    "category": "escalation_trigger",
+    "severity": "info",
+    "applies_to": "complaint",
+    "check_logic_hint": "Complaint sentiment_label is \"very_negative\" with confidence above 0.7",
+    "remediation": "Add to QA review queue for service improvement analysis"
+  }
+]

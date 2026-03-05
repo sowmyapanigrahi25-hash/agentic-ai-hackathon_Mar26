@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-003
+Name: No Admission of Liability
+Category: communication_standard
+Severity: block
+Applies To: letter
+
+Description: Resolution letters must not contain language that admits fault, liability, or responsibility for customer losses.
+
+Trigger Condition: Letter contains phrases like "our fault", "we are responsible", "our mistake", "we caused", or similar liability admissions
+
+Remediation: Rewrite letter to acknowledge issue without admitting liability, use neutral language

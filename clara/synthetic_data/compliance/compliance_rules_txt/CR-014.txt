@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-014
+Name: Escalation Reason Documentation
+Category: escalation_trigger
+Severity: info
+Applies To: all
+
+Description: When escalating to human agent, system must provide clear reason and context summary.
+
+Trigger Condition: Complaint escalated but escalation_reason field is empty or generic
+
+Remediation: Populate escalation_reason with specific trigger and relevant context for human agent

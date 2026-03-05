@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-015
+Name: Customer Sentiment Tracking
+Category: escalation_trigger
+Severity: info
+Applies To: complaint
+
+Description: Very negative sentiment complaints should be flagged for quality assurance review.
+
+Trigger Condition: Complaint sentiment_label is "very_negative" with confidence above 0.7
+
+Remediation: Add to QA review queue for service improvement analysis

@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-006
+Name: PII Protection in Audit Logs
+Category: data_privacy
+Severity: block
+Applies To: all
+
+Description: Customer personally identifiable information must not appear in audit logs or system traces.
+
+Trigger Condition: Audit log entry contains email addresses, phone numbers, account numbers, or full names
+
+Remediation: Redact PII from logs and alert security team for log sanitization

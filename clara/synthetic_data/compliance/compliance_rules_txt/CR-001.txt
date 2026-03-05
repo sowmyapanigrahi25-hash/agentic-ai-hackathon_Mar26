@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-001
+Name: High Value Refund Approval Required
+Category: refund_policy
+Severity: block
+Applies To: letter
+
+Description: Any refund commitment exceeding $500 must receive manager approval before being communicated to the customer.
+
+Trigger Condition: Resolution letter contains refund language with amount above $500 without manager approval flag
+
+Remediation: Escalate to manager for approval before sending resolution letter to customer

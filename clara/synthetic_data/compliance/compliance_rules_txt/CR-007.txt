@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-007
+Name: Professional Tone Standard
+Category: communication_standard
+Severity: warn
+Applies To: letter
+
+Description: All customer communications must maintain professional, empathetic tone without informal language.
+
+Trigger Condition: Letter contains slang, abbreviations, emojis, or overly casual language
+
+Remediation: Revise letter to use formal business communication standards

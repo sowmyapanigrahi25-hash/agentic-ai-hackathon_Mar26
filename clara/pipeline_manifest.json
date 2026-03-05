@@ -1,0 +1,80 @@
+{
+  "project": "CLARA",
+  "full_name": "Complaint Learning and Agentic Resolution Assistant",
+  "version": "1.0.0",
+  "s3_bucket": "${S3_BUCKET_NAME}",
+  "s3_prefix": "synthetic_data/",
+  "aws_region": "${AWS_REGION}",
+  "bedrock_model_id": "anthropic.claude-3-7-sonnet-20250219",
+  "knowledge_bases": {
+    "compliance_rules_kb": {
+      "kb_id": "${COMPLIANCE_KB_ID}",
+      "s3_data_source": "synthetic_data/compliance/compliance_rules_txt/",
+      "description": "Compliance rules for validating resolution letters"
+    }
+  },
+  "agents": {
+    "triage_agent": {
+      "name": "triage-agent-v1",
+      "file": "agents/triage_agent.py",
+      "responsibility": "classify complaint, assign priority, pull matching transactions from S3",
+      "input": "complaint_id",
+      "output": "classified complaint with priority, category, sentiment, matched transactions"
+    },
+    "resolution_agent": {
+      "name": "resolution-agent-v1",
+      "file": "agents/resolution_agent.py",
+      "responsibility": "draft resolution letter using Bedrock, check against compliance rules via KB",
+      "input": "triage output dict",
+      "output": "draft letter with confidence_score and compliance check results"
+    },
+    "decision_agent": {
+      "name": "decision-agent-v1",
+      "file": "agents/decision_agent.py",
+      "responsibility": "resolve or escalate based on confidence and risk thresholds",
+      "input": "resolution output + customer risk_score",
+      "output": "final status — resolved or escalated with reason"
+    }
+  },
+  "thresholds": {
+    "confidence_threshold": 0.5,
+    "risk_score_threshold": 0.85,
+    "sla_breach_hours": 72
+  },
+  "data_entities": {
+    "customers": {
+      "s3_path": "synthetic_data/customers/customers.json",
+      "primary_key": "customer_id",
+      "row_count": 150
+    },
+    "complaints": {
+      "s3_path": "synthetic_data/complaints/complaints.json",
+      "primary_key": "complaint_id",
+      "fk": "customer_id",
+      "row_count": 300
+    },
+    "transactions": {
+      "s3_path": "synthetic_data/transactions/transactions.json",
+      "primary_key": "transaction_id",
+      "fk": "customer_id",
+      "row_count": 1000
+    },
+    "compliance_rules": {
+      "s3_path": "synthetic_data/compliance/compliance_rules.json",
+      "primary_key": "rule_id",
+      "row_count": 15
+    },
+    "audit_log": {
+      "s3_path": "synthetic_data/compliance/audit_log.json",
+      "primary_key": "audit_id",
+      "fk": "complaint_id",
+      "row_count": 500
+    },
+    "resolution_letters": {
+      "s3_path": "synthetic_data/resolution_letters/resolution_letters.json",
+      "primary_key": "letter_id",
+      "fk": "complaint_id",
+      "row_count": 100
+    }
+  }
+}

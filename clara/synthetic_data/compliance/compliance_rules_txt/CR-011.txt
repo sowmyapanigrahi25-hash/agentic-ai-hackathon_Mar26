@@ -1,0 +1,11 @@
+COMPLIANCE RULE: CR-011
+Name: Letter Sign-off Requirements
+Category: communication_standard
+Severity: warn
+Applies To: letter
+
+Description: All resolution letters must include proper closing with team name, company name, and case reference.
+
+Trigger Condition: Letter missing closing signature line with team name, company name, or case reference number
+
+Remediation: Add standard sign-off: "Sincerely, [Team Name] | [Company Name] | Case Ref: [complaint_id]"
